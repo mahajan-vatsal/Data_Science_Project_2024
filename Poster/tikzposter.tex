@@ -1,0 +1,115 @@
+
+
+\documentclass[25pt,a0paper, portrait]{tikzposter}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx,mwe}
+\usepackage{filecontents}
+\usepackage{lipsum}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{blindtext}
+\usepackage{comment}
+
+
+ \makeatletter
+\def\TP@titlegraphictotitledistance{-6cm}
+\settitle{ \centering \vbox{
+		\@titlegraphic \\ [\TP@titlegraphictotitledistance] 
+		\centering
+		\color{titlefgcolor} 
+		{\bfseries \Huge \sc \@title \par}
+		\vspace*{1em}
+		{\huge \@author \par}
+}}
+\makeatother
+
+\setlength{\columnsep}{2cm}
+ 
+\title{BigCube Digital Twin}
+\author{<Author>}
+\titlegraphic{\includegraphics[height=6.5cm]{images/logo_hs_technik}
+	\hfill
+\includegraphics[height=6.5cm]{images/logo}
+}
+ 
+ 
+\usetheme{Desert}
+ 
+\begin{document}
+
+ 
+\maketitle
+
+\begin{columns} 
+	
+	\column{0.36}
+	{
+		\colorlet{blocktitlebgcolor}{blue}
+		\block{Detailrendering}
+		{
+			\begin{tikzfigure}
+				\includegraphics[width=\linewidth]{images/Rendering10}
+			\end{tikzfigure}	
+		}
+		\block{Digital Twin}
+		{
+			"The Digital Twin is a set of virtual information constructs that fully describes a potential or actual physical manufactured product from the micro atomic level to the macro geometrical level. At its optimum, any information that could be obtained from inspecting a physical manufactured product can be obtained from its Digital Twin."- Grieves \& Vickers (2016)
+			
+			Dabei besteht das Konzept Digital Twin aus drei wesentlichen Teilen, auf der einen Seite dem physischen Objekt in der Realen Welt, auf der anderen Seite dem digitalen Abbild in der virtuellen Welt und dazwischen liegt ein Datenaustausch zwischen diesen Instanzen vor. So fließen kontinuierlich Daten vom realen Objekt an das virtuelle um dieses zu präzisieren und umgekehrt helfen die Daten aus den Simulationen das reale Objekt besser zu verstehen.
+		}
+	}
+
+
+	\column{0.64}
+	{
+		\colorlet{blocktitlebgcolor}{blue}
+		\block{Rendering}
+		{
+			\begin{tikzfigure}
+				\includegraphics[width=\linewidth]{images/Rendering9}
+			\end{tikzfigure}
+		}
+	}
+\end{columns}
+
+\begin{columns} 
+	
+	\column{0.5}
+	{
+		\colorlet{blocktitlebgcolor}{blue}
+		\block{Rendering Draufsicht}
+		{
+			\begin{tikzfigure}
+				\includegraphics[width=\linewidth]{images/Rendering8}
+			\end{tikzfigure}	
+		}
+	}
+	
+	
+	\column{0.5}
+	{
+		\colorlet{blocktitlebgcolor}{blue}
+		\block{CAD-Modell in Fusion360}
+		{
+			Der Digital Twin des BigCube wurde in Fusion360 von Grund auf neu aufgebaut, da viele der bisher existierenden Modelle weder aktuell, noch vollständig waren aufgrund der Vielzahl von Änderungen über die Jahre. Zudem waren viele Dateien durch Kopiervorgänge bereits beschädigt und konnten nicht mehr geöffnet werden. Autodesk Fusion360 wurde dabei aus mehreren Gründen als Konstruktionssoftware gewählt: Einerseits bietet Fusion einige moderne Modellierungsansätze, welche zumindest theoretisch von großem Vorteil sein können. Dazu gehört vor Allem der Single-File-Approach, wobei alle Bauteile in einer einzelnen Datei enthalten sind mit ihrer gesamten Modellierungshistorie. Dadurch entfallen viele Probleme des Versions- und Dateimanagements als auch die Weitergabe an Studierende ist drastisch vereinfacht.
+			
+			In diesem Zusammenhang sollte dieses Projekt zudem dazu dienen die Leistungsfähigkeit des noch recht jungen CAD-Programms im Zusammenhang mit größeren Modellen (ca.1500 Körper) zu ermitteln, da diese Software auch im Hochschulumfeld eine immer größere Verbreitung findet.
+			Dabei hat sich gezeigt, das Fusion im Umgang mit großen Modellen, ab etwa 1000 Körpern, leider noch nicht auf dem Niveau der etablierten Programme angekommen ist und wie es scheint wirkt besonders der Single-File-Approach hier als extreme Bürde.
+			Daher wurden auf Basis der Erfahrungen, welche in der Entwicklung des Modells gemacht wurden, einige Konstruktionsrichtlinien für den Aufbau größerer CAD-Modelle in Fusion360 entwickelt. Diese helfen dabei ein Modell von Vorne herein optimiert anlegen zu können, sodass Probleme bei wachsender Komponentenanzahl minimiert werden.
+		}
+		\block{Zukünftige Projekte}
+		{
+			\begin{itemize}
+				\item Umbau auf leistungsfähigere Antriebe
+				\item Integration einer professionellen Steuerung
+				\item Entwurf und Bau einer Einhausung samt Beleuchtung
+				\item Einbindung eines Smart-Extruders
+			\end{itemize}
+		}
+	}
+\end{columns}
+
+\end{document}
+
