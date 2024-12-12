@@ -1,0 +1,564 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Babovsky:2011}{report}{}
+      \name{author}{2}{}{%
+        {{hash=4c59e68a3bc112845656f48f6e5ebef6}{%
+           family={Babovsky},
+           familyi={B\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=28cd97945355fb7f05c3f742c841b90b}{%
+           family={Neundorf},
+           familyi={N\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {TU Ilmenau}%
+      }
+      \strng{namehash}{1fad0616eaf848594944f6a977f51f6b}
+      \strng{fullhash}{1fad0616eaf848594944f6a977f51f6b}
+      \strng{bibnamehash}{1fad0616eaf848594944f6a977f51f6b}
+      \strng{authorbibnamehash}{1fad0616eaf848594944f6a977f51f6b}
+      \strng{authornamehash}{1fad0616eaf848594944f6a977f51f6b}
+      \strng{authorfullhash}{1fad0616eaf848594944f6a977f51f6b}
+      \field{labelalpha}{BN11}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{N}umerische {A}pproximation von {F}unktionen}
+      \field{type}{techreport}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tu-ilmenau.de/fileadmin/media/num/neundorf/Dokumente/Preprints/NumApp1.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.tu-ilmenau.de/fileadmin/media/num/neundorf/Dokumente/Preprints/NumApp1.pdf
+      \endverb
+    \endentry
+    \entry{DIN66025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3b69878f1d070dda2e839184fee73e14}{%
+           family={{DIN Deutsches Institut für Normung e.V.}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Beuth Verlag}%
+      }
+      \strng{namehash}{3b69878f1d070dda2e839184fee73e14}
+      \strng{fullhash}{3b69878f1d070dda2e839184fee73e14}
+      \strng{bibnamehash}{3b69878f1d070dda2e839184fee73e14}
+      \strng{authorbibnamehash}{3b69878f1d070dda2e839184fee73e14}
+      \strng{authornamehash}{3b69878f1d070dda2e839184fee73e14}
+      \strng{authorfullhash}{3b69878f1d070dda2e839184fee73e14}
+      \field{labelalpha}{DIN66025-2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{shorthand}{DIN66025-2}
+      \field{title}{DIN 66025-2:1988-09: Programmaufbau für numerisch gesteuerte Arbeitsmaschinen: Wegbedingungen und Zusatzfunktionen}
+      \field{type}{Norm}
+      \field{year}{1988}
+    \endentry
+    \entry{Farin:2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=56fa1c9ea58607d54edffd55ef286457}{%
+           family={Farin},
+           familyi={F\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{56fa1c9ea58607d54edffd55ef286457}
+      \strng{fullhash}{56fa1c9ea58607d54edffd55ef286457}
+      \strng{bibnamehash}{56fa1c9ea58607d54edffd55ef286457}
+      \strng{authorbibnamehash}{56fa1c9ea58607d54edffd55ef286457}
+      \strng{authornamehash}{56fa1c9ea58607d54edffd55ef286457}
+      \strng{authorfullhash}{56fa1c9ea58607d54edffd55ef286457}
+      \field{labelalpha}{Far02}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5.}
+      \field{note}{\textcolor{blue}{\href{ExterneDokumente/Farin G. Curves and Surfaces for CAGD. A Practical Guide.pdf}{[pdf]}}}
+      \field{title}{{C}urves and {S}urfaces for {CAGD}}
+      \field{year}{2002}
+    \endentry
+    \entry{Farouki:2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f557737d0d56e48d891a9030125aa2ad}{%
+           family={Farouki},
+           familyi={F\bibinitperiod},
+           given={Rida},
+           giveni={R\bibinitperiod}}}%
+        {{hash=774dfe2bf81f23ef0bfe1391e078fc2e}{%
+           family={Srinathu},
+           familyi={S\bibinitperiod},
+           given={Jyothirmai},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a21f98f185496727a908e6397d5092d2}
+      \strng{fullhash}{a21f98f185496727a908e6397d5092d2}
+      \strng{bibnamehash}{a21f98f185496727a908e6397d5092d2}
+      \strng{authorbibnamehash}{a21f98f185496727a908e6397d5092d2}
+      \strng{authornamehash}{a21f98f185496727a908e6397d5092d2}
+      \strng{authorfullhash}{a21f98f185496727a908e6397d5092d2}
+      \field{labelalpha}{FS17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer-Aided Design}
+      \field{month}{1}
+      \field{title}{A real-time CNC interpolator algorithm for trimming and filling planar offset curves}
+      \field{volume}{86}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1016/j.cad.2017.01.001
+      \endverb
+    \endentry
+    \entry{Jaklic:2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e87780e52b4fe13e0af35fa839112ebe}{%
+           family={Jaklic},
+           familyi={J\bibinitperiod},
+           given={Gasper},
+           giveni={G\bibinitperiod}}}%
+        {{hash=34a9fa42e940ff6a99d77769da80bd09}{%
+           family={Kozak},
+           familyi={K\bibinitperiod},
+           given={Jernej},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a281c3f7990c9e2448a5e6b6aafd993}{%
+           family={Krajnc},
+           familyi={K\bibinitperiod},
+           given={Marjeta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49c4dd0fdd24b67fd5ae34d6875aa05f}{%
+           family={Vitrih},
+           familyi={V\bibinitperiod},
+           given={Vito},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6ba4841d3af545a9505bf0f6dc56d9fe}{%
+           family={Zagar},
+           familyi={Z\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8691173235e203589bcd0c532cc7d1e}
+      \strng{fullhash}{988236647cdc215be2abd9b3348c0b7f}
+      \strng{bibnamehash}{988236647cdc215be2abd9b3348c0b7f}
+      \strng{authorbibnamehash}{988236647cdc215be2abd9b3348c0b7f}
+      \strng{authornamehash}{f8691173235e203589bcd0c532cc7d1e}
+      \strng{authorfullhash}{988236647cdc215be2abd9b3348c0b7f}
+      \field{labelalpha}{JKK+10}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics of Computation}
+      \field{note}{\textcolor{blue}{\href{ExterneDokumente/PHKubisch/CubicPHG2Spline-rev.pdf}{[pdf]}}}
+      \field{title}{{O}n {I}nterpolation by {P}lanar {C}ubic {$G^2$} {P}ythagorean-{H}odograph {S}pline {C}urves}
+      \field{year}{2010}
+    \endentry
+    \entry{Malaka:2009}{book}{}
+      \name{author}{1}{}{%
+        {{hash=864a353c8a3b85d9dab22e1ecd14ddd2}{%
+           family={R.\bibnamedelimi Malaka},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={H.\bibnamedelimi Hussman},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           suffix={A.\bibnamedelimi Butz},
+           suffixi={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Studium}%
+      }
+      \strng{namehash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \strng{fullhash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \strng{bibnamehash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \strng{authorbibnamehash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \strng{authornamehash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \strng{authorfullhash}{864a353c8a3b85d9dab22e1ecd14ddd2}
+      \field{labelalpha}{R M09}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Medieninformatik}
+      \field{year}{2009}
+    \endentry
+    \entry{Patent3D}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=08d9859a57397720c2cb70d08d732d23}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c352ccd380850a72aaa959deec0ba1d3}{%
+           family={Hernandez},
+           familyi={H\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+        {{hash=771e2cfe523d03b77d30bcb0f1ba5833}{%
+           family={Kinsly},
+           familyi={K\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=52ab10d2942058058d499ac001c0c0d4}{%
+           family={Berlin},
+           familyi={B\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{023d8b54bf4661a758d1ed4bb588705f}
+      \strng{fullhash}{d3fbd749d1b1518165e6e8b41ec7b0ed}
+      \strng{bibnamehash}{d3fbd749d1b1518165e6e8b41ec7b0ed}
+      \strng{authorbibnamehash}{d3fbd749d1b1518165e6e8b41ec7b0ed}
+      \strng{authornamehash}{023d8b54bf4661a758d1ed4bb588705f}
+      \strng{authorfullhash}{d3fbd749d1b1518165e6e8b41ec7b0ed}
+      \field{labelalpha}{RHKB07}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{United States Patent, Patent N0.: US 7,291,002 B2}
+      \field{title}{Apparatus and Methods for 3D Printing}
+      \field{year}{2007}
+    \endentry
+    \entry{Sencer:2014}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=22653feb35e47227a5afadd5662af8f8}{%
+           family={Sencer},
+           familyi={S\bibinitperiod},
+           given={Burak},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f32b015875fbdfc0f71e71bacb8f917d}{%
+           family={Shamoto},
+           familyi={S\bibinitperiod},
+           given={Eiji},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Piscataway, NJ}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \strng{fullhash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \strng{bibnamehash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \strng{authorbibnamehash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \strng{authornamehash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \strng{authorfullhash}{f2afd34a3e5589bed4560c2ab5f19cd0}
+      \field{labelalpha}{SS14}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{2014 IEEE 13th International Workshop on Advanced Motion Control (AMC)}}
+      \field{isbn}{978-1-4799-2323-6}
+      \field{note}{\textcolor{blue}{\href{ExterneDokumente/Bezier/Sencer2014.pdf}{[pdf]}} und \textcolor{blue}{\href{ExterneDokumente/Bezier/Sencer2014V2.pdf}{[Version 2 - pdf]}}}
+      \field{title}{{Curvature-continuous sharp corner smoothing scheme for Cartesian motion systems}}
+      \field{year}{2014}
+      \field{pages}{374\bibrangedash 379}
+      \range{pages}{6}
+      \verb{doi}
+      \verb \url{10.1109/AMC.2014.6823311}
+      \endverb
+    \endentry
+    \entry{Wat:2017e}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{1}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{Description}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description
+      \endverb
+    \endentry
+    \entry{Wat:2017c}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{2}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{Export}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export
+      \endverb
+    \endentry
+    \entry{Wat:2017a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{3}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/maple/view.aspx?path=module}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{Module}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/maple/view.aspx?path=module
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/maple/view.aspx?path=module
+      \endverb
+    \endentry
+    \entry{Wat:2017b}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{4}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{ModuleLoad}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad
+      \endverb
+    \endentry
+    \entry{Wat:2017d}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{5}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{Option}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option
+      \endverb
+    \endentry
+    \entry{Wat:2017f}{online}{}
+      \name{author}{1}{}{%
+        {{hash=909c3717554094452b686a8b90fbb3e2}{%
+           family={{Waterloo Maple Inc. 2017}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{fullhash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{bibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorbibnamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authornamehash}{909c3717554094452b686a8b90fbb3e2}
+      \strng{authorfullhash}{909c3717554094452b686a8b90fbb3e2}
+      \field{extraname}{6}
+      \field{labelalpha}{Wat17}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure}{Link: [www.maplesoft.com]}}}
+      \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
+      \field{title}{Procedures}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure
+      \endverb
+      \verb{url}
+      \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure
+      \endverb
+    \endentry
+    \entry{Zafeiropoulos:2020}{inproceedings}{}
+      \name{author}{11}{}{%
+        {{hash=acc9baf0228c791cdcab851d6abb03ce}{%
+           family={Zafeiropoulos},
+           familyi={Z\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91ae73e631ca92177ba53d880c4e4f65}{%
+           family={Fotopoulou},
+           familyi={F\bibinitperiod},
+           given={Eleni},
+           giveni={E\bibinitperiod}}}%
+        {{hash=41ff98f7332679b4b37181ba57c458fc}{%
+           family={Peuster},
+           familyi={P\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2f01efbe6a744f6d91161b2316c1a07d}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21fde1498ed464fd99ae4196b2ea7f09}{%
+           family={Gouvas},
+           familyi={G\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod}}}%
+        {{hash=048bfdd3469aef9fff55607fe22c9acb}{%
+           family={Behnke},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=42c3dd84afe0d86f0fce322b6205bafc}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21a9b4d0b23f9197e42f5c6b7568d544}{%
+           family={Bök},
+           familyi={B\bibinitperiod},
+           given={Patrick-Benjamin},
+           giveni={P\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=580f9e91770cc16feb3023eb3d41e4d4}{%
+           family={Panagiotis},
+           familyi={P\bibinitperiod},
+           given={Trakadas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5bea43b06b94df266595ce244b9e24e9}{%
+           family={Panagiotis},
+           familyi={P\bibinitperiod},
+           given={Karkazis},
+           giveni={K\bibinitperiod}}}%
+        {{hash=38830b3fb388bac6c44c32a0ff2b3be4}{%
+           family={Karl},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd4a7485ab72ad0c98a488daf2257e7f}
+      \strng{fullhash}{1b84273562c474756a40278ba1c29d8e}
+      \strng{bibnamehash}{bd4a7485ab72ad0c98a488daf2257e7f}
+      \strng{authorbibnamehash}{bd4a7485ab72ad0c98a488daf2257e7f}
+      \strng{authornamehash}{bd4a7485ab72ad0c98a488daf2257e7f}
+      \strng{authorfullhash}{1b84273562c474756a40278ba1c29d8e}
+      \field{labelalpha}{ZFP+20}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Conference on Network Softwarization, NetSoft 2020}
+      \field{title}{Benchmarking and Profiling 5G Verticals' Applications: An Industrial IoT Use Case}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1109/NetSoft48620.2020.9165393
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

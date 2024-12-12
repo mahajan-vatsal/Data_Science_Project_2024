@@ -1,0 +1,4 @@
+\ACRO{total-barriers}{1}
+\ACRO{usage}{api=={0}||bs=={0}||cci=={0}||csi=={0}||cg=={0}||cifar=={0}||cnc=={1}||cnn=={0}||coco=={0}||cpu=={0}||cuda=={0}||cudnn=={0}||dll=={0}||dnn=={0}||fp32=={0}||flops=={0}||fp16=={0}||fpga=={0}||fps=={0}||gpio=={0}||gpgpu=={0}||gpu=={0}||hdmi=={0}||i2c=={0}||i2s=={0}||ide=={0}||int8=={0}||iot=={0}||kdd=={0}||ki=={0}||knn=={0}||mimd=={0}||nn=={0}||opencl=={0}||ppa=={0}||pip=={0}||pypi=={0}||ram=={0}||relu=={0}||resnets=={0}||rle=={0}||rgb=={0}||sd=={0}||sda=={0}||sd-1=={0}||sd-3=={0}||scl=={0}||ssh=={0}||spi=={0}||sbc=={0}||simd=={0}||sm=={0}||sp=={0}||sps=={2}||tpu=={0}||uart=={0}||uma=={0}||venv=={0}||vpu=={0}}
+\ACRO{pages}{cnc=={45@1@37}||sps=={45@1@37}}
+\ACRO{barriers}{}
