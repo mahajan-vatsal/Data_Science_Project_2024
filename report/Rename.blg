@@ -1,15 +1,12 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'Rename.blg'
-[180] biber-MSWIN32:340> INFO - === 
-[277] Biber.pm:415> INFO - Reading 'Rename.bcf'
-[463] Biber.pm:952> INFO - Found 15 citekeys in bib section 0
-[492] Biber.pm:4340> INFO - Processing section 0
-[510] Biber.pm:4531> INFO - Looking for bibtex format file '../Documents/literature.bib' for section 0
-[601] bibtex.pm:1689> INFO - LaTeX decoding ...
-[658] bibtex.pm:1494> INFO - Found BibTeX data source '../Documents/literature.bib'
-[852] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[852] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[852] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
-[853] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[886] bbl.pm:654> INFO - Writing 'Rename.bbl' with encoding 'UTF-8'
-[897] bbl.pm:757> INFO - Output to Rename.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Rename.blg'
+[129] biber-MSWIN64:340> INFO - === 
+[164] Biber.pm:420> INFO - Reading 'Rename.bcf'
+[292] Biber.pm:994> INFO - Found 16 citekeys in bib section 0
+[308] Biber.pm:4463> INFO - Processing section 0
+[323] Biber.pm:4654> INFO - Looking for bibtex file '../Documents/Literature.bib' for section 0
+[366] bibtex.pm:1713> INFO - LaTeX decoding ...
+[373] bibtex.pm:1519> INFO - Found BibTeX data source '../Documents/Literature.bib'
+[425] Biber.pm:4654> INFO - Looking for bibtex file '../Documents/MyLiterature.bib' for section 0
+[1023] Utils.pm:410> ERROR - Cannot find '../Documents/MyLiterature.bib'!
+[1024] Biber.pm:136> INFO - ERRORS: 1
