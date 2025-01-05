@@ -20,7 +20,7 @@ KDD plays a pivotal role in helping organizations navigate the over whelming vol
 	\end{center}
 \end{figure}
 
-KDD is particularly relevant for analyzing log file data in the context of thread and weakness analysis. The structured approach ensures that patterns and anomalies are identified efficiently, enabling the identification of targeted solutions for improving system security and operational performance.
+KDD is particularly relevant for analyzing log file data in the context of thread and weakness analysis. The structured approach ensures that patterns and anomalies are identified efficiently, enabling the identification of targeted solutions for improving system security and operational performance. \cite{IEEE:1997}
 
 In this project, the KDD process will serve as the backbone for organizing and implementing analytics tasks, ensuring a systematic exploration of the data to uncover valuable insights.
 
@@ -67,7 +67,7 @@ The dataset includes log entries with the following attributes
 \end{itemize}
 
 \subsection{Size}
-The dataset is approximately 649 MB size.
+The dataset is approximately 3.34 GB size.
 
 \section{Data Preparation}
 Data preparation in the Knowledge Discovery in Databases (KDD) process, ensures the dataset is clean, consistent and ready for analysis. 
@@ -99,7 +99,7 @@ Data preparation in the Knowledge Discovery in Databases (KDD) process, ensures 
 \end{figure}
 
 \subsection{Key Attributes}
-The following were the key parameters that were identifieds and prioritized for analysis,
+The following were the key parameters that were identified and prioritized for analysis,
 \begin{itemize}
 	\item \SHELL{TraceId}: Used to track individual requests across log entries, enabling the grouping and analysis of entire request flows.
 	\item \SHELL{HTTP Status Code}: Identifies the result of a request (e.g., success, client errors, or server errors). Codes such as 200, 404 and 500 provide critical insights into system health.
@@ -174,6 +174,21 @@ Isolation Forest is an ensemble learning technique designed to detect outliers b
 Requests identified as anomalies were flagged with a value of -1.
 
 \section{Validation/Verification}
+Validation and verification are critical steps to ensure the reliability and accuracy of the data mining and anomaly detection process. This section outlines the methods used to validate the models and verify the results.
+
+\subsection{DBSCAN Validation}
+The results of the DBSCAN clustering were validated as follows:
+\begin{itemize}
+	\item The clustering results were reviewed to ensure that data points in the same cluster exhibited similar patterns.
+	\item Anomalies (\texttt{Cluster = -1}) were manually inspected to confirm that they represented requests deviating from normal patterns.
+\end{itemize}
+
+\subsection{Isolation Forest Validation}
+The Isolation Forest model's performance was validated using the following methods:
+\begin{itemize}
+	\item \textbf{Anomaly Score Distribution}: The distribution of anomaly scores was evaluated to differentiate anomalies from regular requests.
+	\item \textbf{Manual Inspection}: A subset of flagged anomalies was reviewed to confirm their unusual characteristics.
+\end{itemize}
 
 \section{Data Visualization}
 
