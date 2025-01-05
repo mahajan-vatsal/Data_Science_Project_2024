@@ -1,0 +1,53 @@
+\acswitchoff 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acronyms}{v}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Challenges and Results}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Positioning Your Analytics}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Existing Solutions}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}State-of-the-Art}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Overview of Current Solutions}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Capabilities and Limitations}{2}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Relevance to Analytics}{2}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Emerging Trends}{3}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Application Sector}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Application Sector}{4}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Purpose of Your Analytics}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}What It Does}{5}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Positioning Within Standard Reference Architectures}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Connected Infrastructure Components}{8}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Infrastructure Integration}{8}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Major Requirements}{9}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Requirements}{9}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Knowledge Discovery in Databases (KDD) Process}{10}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Topic Description}{10}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Special Challenges}{10}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Database}{11}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Data Selection}{11}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Origin}{11}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Data Format}{11}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Features}{12}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Size}{12}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}Data Preparation}{12}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Merging and Conversion}{12}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Initial Cleaning}{12}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Key Attributes}{13}{subsection.8.4.3}%
+\contentsline {section}{\numberline {8.5}Data Transformation}{13}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Data Mining}{14}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Feature Extraction}{14}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Clustering}{14}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {8.6.3}Anormalities}{15}{subsection.8.6.3}%
+\contentsline {section}{\numberline {8.7}Model}{15}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}DBSCAN}{15}{subsection.8.7.1}%
+\contentsline {subsubsection}{\nonumberline Key Parameters}{15}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Outcome}{15}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {8.7.2}Isolation Forest}{15}{subsection.8.7.2}%
+\contentsline {subsubsection}{\nonumberline Key Parameters}{15}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Outcome}{16}{subsubsection*.12}%
+\contentsline {section}{\numberline {8.8}Validation/Verification}{16}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}DBSCAN Validation}{16}{subsection.8.8.1}%
+\contentsline {subsection}{\numberline {8.8.2}Isolation Forest Validation}{16}{subsection.8.8.2}%
+\contentsline {section}{\numberline {8.9}Data Visualization}{16}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Conclusion}{16}{section.8.10}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

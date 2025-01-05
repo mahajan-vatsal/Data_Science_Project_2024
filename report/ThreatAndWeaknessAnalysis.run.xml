@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ThreadAndWeaknessAnalysis.bcf</file>
+      <file>ThreatAndWeaknessAnalysis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreadAndWeaknessAnalysis.bbl</file>
+      <file>ThreatAndWeaknessAnalysis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,23 +64,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>ThreadAndWeaknessAnalysis</infile>
+      <infile>ThreatAndWeaknessAnalysis</infile>
     </cmdline>
     <input>
-      <file>ThreadAndWeaknessAnalysis.bcf</file>
+      <file>ThreatAndWeaknessAnalysis.bcf</file>
     </input>
     <output>
-      <file>ThreadAndWeaknessAnalysis.bbl</file>
+      <file>ThreatAndWeaknessAnalysis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ThreadAndWeaknessAnalysis.bbl</file>
+      <file>ThreatAndWeaknessAnalysis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreadAndWeaknessAnalysis.bcf</file>
+      <file>ThreatAndWeaknessAnalysis.bcf</file>
     </requires>
     <requires type="editable">
       <file>../Documents/Literature.bib</file>
