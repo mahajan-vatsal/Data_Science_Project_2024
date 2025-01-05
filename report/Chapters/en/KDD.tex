@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 %
-% $Autor: Wings $
+% $Autor: Informatics Students $
 % $Datum: 2020-07-24 09:05:07Z $
 % $Pfad: GDV/Vortraege/latex - Ausarbeitung/Kapitel/Einleitung.tex $
 % $Version: 4732 $
@@ -20,7 +20,7 @@ KDD plays a pivotal role in helping organizations navigate the over whelming vol
 	\end{center}
 \end{figure}
 
-KDD is particularly relevant for analyzing log file data in the context of thread and weakness analysis. The structured approach ensures that patterns and anomalies are identified efficiently, enabling the identification of targeted solutions for improving system security and operational performance. \cite{IEEE:1997}
+KDD is particularly relevant for analyzing log file data in the context of threat and weakness analysis. The structured approach ensures that patterns and anomalies are identified efficiently, enabling the identification of targeted solutions for improving system security and operational performance. \cite{IEEE:1997}
 
 In this project, the KDD process will serve as the backbone for organizing and implementing analytics tasks, ensuring a systematic exploration of the data to uncover valuable insights.
 
@@ -113,7 +113,7 @@ This section focuses on manipulating and reshaping the cleaned data into a struc
 
 \begin{enumerate}
 	\item Grouping log entries by \SHELL{TraceId} to reconstruct complete request flows.
-	\item Parsing relevant fields (\SHELL{TraceId, HTTP Status Code, Path, User-Agent}) from JSON structures.
+	\item Parsing relevant fields (\SHELL{TraceId, HTTP Status Code, Path, User-Agent}) from nested JSON structures.
 	\item Transforming each row to represent a unique log entry with all associated fields (e.g., aligning \SHELL{TraceId} with its corresponding attributes) as shown in figure ~\ref{DataTrans}.
 \end{enumerate}
 
@@ -154,6 +154,8 @@ The model selection was driven by the need to perform both clustering and anomal
 
 \subsection{DBSCAN}
 DBSCAN is a density-based clustering algorithm, groups data points that are closely packed together based on a density threshold. Data points far from any dense cluster are treated as "noise" or anomalies.
+
+
 \subsubsection{Key Parameters}
 \begin{itemize}
 	\item \textbf{eps}: Set to 0.5, defining the maximum distance between points to form a cluster.
@@ -192,5 +194,24 @@ The Isolation Forest model's performance was validated using the following metho
 
 \section{Data Visualization}
 
-\section{Conclusion}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{Images/PowerBI_1.png}
+		\caption{Count of Trace ID vs Path based on Combined Model}
+		\label{PowerBI1} 
+	\end{center}
+\end{figure}
 
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{Images/PowerBI_2.png}
+		\caption{Analysis based on suspicious User-agents}
+		\label{PowerBI2} 
+	\end{center}
+\end{figure}
+
+The final step in the KDD process is representing the acquired knowledge
+in an understandable form and using it to make decisions. To effectively demonstrate and view the output of our data mining techniques we used Power Bi tool where we created a dashboard as shown in the figure ~\ref{PowerBI1} and ~\ref{PowerBI2}, for visualizing the Paths and the respective User-agents which we identified as suspicious threat. Power BI's dashboards and reports are excellent for this purpose, as they can effectively communicate insights to all levels of an organization.
+
+\section{Conclusion}
+This project successfully utilized data mining and anomaly detection techniques to uncover irregularities within system log files. By utilizing advanced machine learning algorithms such as DBSCAN and Isolation Forest, we were able to cluster request patterns and detect anomalies with precision, resulting in a reliable and efficient detection process. The implementation followed the Knowledge Discovery in Databases (KDD) process, ensuring a systematic approach to data selection, preparation,  transformation, and analysis, which enhanced the accuracy and relevance of the findings.

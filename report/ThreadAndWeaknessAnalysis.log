@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  5 JAN 2025 19:57
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  5 JAN 2025 23:57
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1825,7 +1829,11 @@ No file ThreadAndWeaknessAnalysis.nls.
 
 ] (./Chapters/en/Introduction.tex
 chapter 1.
+<<<<<<< Updated upstream
 <Images/Data_Img.png, id=154, 1280.28313pt x 587.19376pt>
+=======
+<Images/Data_Img.png, id=171, 1280.28313pt x 587.19376pt>
+>>>>>>> Stashed changes
 File: Images/Data_Img.png Graphic file (type png)
 <use Images/Data_Img.png>
 Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
@@ -1867,7 +1875,11 @@ chapter 4.
 
 ]
 chapter 5.
+<<<<<<< Updated upstream
 <Images/RAMI_IIRA.png, id=188, 786.43813pt x 413.04312pt>
+=======
+<Images/RAMI_IIRA.png, id=217, 786.43813pt x 413.04312pt>
+>>>>>>> Stashed changes
 File: Images/RAMI_IIRA.png Graphic file (type png)
 <use Images/RAMI_IIRA.png>
 Package pdftex.def Info: Images/RAMI_IIRA.png  used on input line 24.
@@ -1884,20 +1896,35 @@ chapter 7.
 
 ] (./Chapters/en/KDD.tex
 chapter 8.
+<<<<<<< Updated upstream
 <Images/KDD.png, id=210, 802.197pt x 431.81325pt>
+=======
+<Images/KDD.png, id=247, 802.197pt x 431.81325pt>
+>>>>>>> Stashed changes
 File: Images/KDD.png Graphic file (type png)
 <use Images/KDD.png>
 Package pdftex.def Info: Images/KDD.png  used on input line 16.
 (pdftex.def)             Requested size: 302.73602pt x 162.95743pt.
 [10
 
+<<<<<<< Updated upstream
 ] [11 <./Images/KDD.png>]
 <Images/csvFile.png, id=226, 1115.96925pt x 344.487pt>
+=======
+LaTeX Warning: Citation 'IEEE:1997' on page 15 undefined on input line 23.
+
+[15] [16 <./Images/KDD.png>]
+<Images/csvFile.png, id=262, 1115.96925pt x 344.487pt>
+>>>>>>> Stashed changes
 File: Images/csvFile.png Graphic file (type png)
 <use Images/csvFile.png>
 Package pdftex.def Info: Images/csvFile.png  used on input line 83.
 (pdftex.def)             Requested size: 389.23108pt x 120.15173pt.
+<<<<<<< Updated upstream
 <Images/error.png, id=228, 651.6345pt x 27.10126pt>
+=======
+<Images/error.png, id=264, 651.6345pt x 27.10126pt>
+>>>>>>> Stashed changes
 File: Images/error.png Graphic file (type png)
 <use Images/error.png>
 Package pdftex.def Info: Images/error.png  used on input line 95.
@@ -1908,14 +1935,41 @@ Overfull \hbox (8.00291pt too wide) in paragraph at lines 116--117
 , HTTP Status Code, Path, User-Agent[]\T1/cmr/m/n/12 (-20) ) from
  []
 
+<<<<<<< Updated upstream
 <Images/DataTransformation.png, id=234, 903.97725pt x 257.16075pt>
+=======
+<Images/DataTransformation.png, id=270, 903.97725pt x 257.16075pt>
+>>>>>>> Stashed changes
 File: Images/DataTransformation.png Graphic file (type png)
 <use Images/DataTransformation.png>
 Package pdftex.def Info: Images/DataTransformation.png  used on input line 122.
 
 (pdftex.def)             Requested size: 389.23108pt x 110.72606pt.
+<<<<<<< Updated upstream
 [13 <./Images/csvFile.png> <./Images/error.png>] [14 <./Images/DataTransformati
 on.png>] [15]) [16] [17
+=======
+[18 <./Images/csvFile.png> <./Images/error.png>] [19 <./Images/DataTransformati
+on.png>] [20]
+<Images/PowerBI_1.png, id=296, 1148.49075pt x 611.28375pt>
+File: Images/PowerBI_1.png Graphic file (type png)
+<use Images/PowerBI_1.png>
+Package pdftex.def Info: Images/PowerBI_1.png  used on input line 199.
+(pdftex.def)             Requested size: 302.73602pt x 161.13129pt.
+<Images/PowerBI_2.png, id=297, 1022.01825pt x 591.4095pt>
+File: Images/PowerBI_2.png Graphic file (type png)
+<use Images/PowerBI_2.png>
+Package pdftex.def Info: Images/PowerBI_2.png  used on input line 207.
+(pdftex.def)             Requested size: 302.73602pt x 175.18622pt.
+) [21] [22 <./Images/PowerBI_1.png> <./Images/PowerBI_2.png>]
+[23] [24
+
+
+] [25
+
+
+] [26
+>>>>>>> Stashed changes
 
 
 ]
@@ -1938,15 +1992,24 @@ Package logreq Info: Writing requests to 'ThreadAndWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  59783 strings out of 474050
  1474043 string characters out of 5746299
  2472123 words of memory out of 5000000
  81077 multiletter control sequences out of 15000+600000
  603049 words of font info for 235 fonts, out of 8000000 for 9000
+=======
+ 59796 strings out of 474104
+ 1474225 string characters out of 5747502
+ 2471935 words of memory out of 5000000
+ 81030 multiletter control sequences out of 15000+600000
+ 602111 words of font info for 231 fonts, out of 8000000 for 9000
+>>>>>>> Stashed changes
  1146 hyphenation exceptions out of 8191
  110i,8n,111p,10920b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2024/
+<<<<<<< Updated upstream
 texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2024/texmf-dist
 /fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/
@@ -1966,4 +2029,24 @@ PDF statistics:
  438 compressed objects within 5 object streams
  96 named destinations out of 1000 (max. 500000)
  42408 words of extra memory for PDF output out of 42996 (max. 10000000)
+=======
+texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1440.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/
+cm-super/sfsl1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/s
+fsl2074.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss2074.pf
+b><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2024/texmf-dist/
+fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2024/texmf-dist/fonts/type
+1/public/cm-super/sfti1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/c
+m-super/sftt1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
+tt1200.pfb>
+Output written on ThreadAndWeaknessAnalysis.pdf (35 pages, 1942907 bytes).
+PDF statistics:
+ 569 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 40370 words of extra memory for PDF output out of 42996 (max. 10000000)
+>>>>>>> Stashed changes
 

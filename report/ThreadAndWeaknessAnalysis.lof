@@ -10,8 +10,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+<<<<<<< Updated upstream
 \contentsline {figure}{\numberline {8.1}{\ignorespaces KDD Process}}{11}{figure.8.1}%
 \contentsline {figure}{\numberline {8.2}{\ignorespaces Converted CSV file}}{13}{figure.8.2}%
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Error log}}{13}{figure.8.3}%
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Result after applying data transformation}}{14}{figure.8.4}%
+=======
+\contentsline {figure}{\numberline {8.1}{\ignorespaces KDD Process}}{16}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Converted CSV file}}{18}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Error log}}{18}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Result after applying data transformation}}{19}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Count of Trace ID vs Path based on Combined Model}}{22}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Analysis based on suspicious User-agents}}{22}{figure.8.6}%
+>>>>>>> Stashed changes
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
