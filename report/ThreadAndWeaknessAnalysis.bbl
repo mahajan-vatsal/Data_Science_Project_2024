@@ -19,6 +19,53 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global/global}
+    \entry{IEEE:1997}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b42d184c7549161c8fe0c2d53decab94}{%
+           family={Fayyad},
+           familyi={F\bibinitperiod},
+           given={Usama},
+           giveni={U\bibinitperiod}}}%
+        {{hash=34f8ca71a399161ab92f9d68b804869f}{%
+           family={Piatetsky-Shapiro},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4940852a16a84802eb98552d6deace24}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Padhraic},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{fullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{fullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \strng{bibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorbibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authornamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorfullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorfullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \field{labelalpha}{FPS97}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{9th International Conference on Scientific and Statistical Database Management}
+      \field{title}{Data Mining and Knowledge Discovery in Databases: Implications for Scientific Databases}
+      \field{year}{1997}
+      \verb{doi}
+      \verb 10.1109/SSDM.1997.621141
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/621141
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/621141
+      \endverb
+    \endentry
     \entry{KDD:2000}{online}{}{}
       \name{author}{3}{}{%
         {{hash=18dd8a3c00e7a458c72e7c2dba6b0713}{%
