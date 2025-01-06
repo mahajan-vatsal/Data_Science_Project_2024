@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Presentation_ThreatandWeaknessAnalysis.blg'
+[73] biber-darwin:340> INFO - === Mon Jan  6, 2025, 19:20:29
+[270] Utils.pm:410> ERROR - Cannot find 'Presentation_ThreatandWeaknessAnalysis.bcf'!
+[270] Biber.pm:136> INFO - ERRORS: 1

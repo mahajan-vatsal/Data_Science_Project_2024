@@ -1,0 +1,251 @@
+\documentclass[10pt, a4paper]{beamer}
+%\documentclass{article}
+
+%Metadaten
+\title{Threat and Weakness Analysis in SimplyTag}
+
+\subtitle{ORGADATA COMPANY, LEER}
+\newcommand{\additionalsubtitle}{Data Science} 
+\author{
+		Manoj Selvaraju - 7025649 \\ 
+		Vatsal Mahajan - 7025694\\ 
+		Vijay Singh - 7025700
+}
+
+%\date{\today}
+\date{January 15, 2025}
+
+% siehe hesader.tex Zeile 10-16 zum Aktivieren der Notes
+% Kommentare stehen in \notes{} und können im 2-screen-mode genutzt werden
+\include{Slides/header}
+
+%\addbibresource{Documents/MyLiterature.bib} %Import the bibliography file
+
+\begin{document}
+	
+\include{Slides/start}
+
+	    \section{Introduction}
+		\begin{frame}
+		\frametitle{Introduction}
+		
+		\begin{block}{Objective:}
+			Identify and mitigate potential threats and weaknesses in Orgadata’s SimplyTag system.
+		\end{block}
+		
+		
+		\begin{block}{Background:}
+			\begin{itemize}
+				\item SimplyTag is a web application enabling quick access to construction-related data.
+				\item Ensuring data integrity is critical to prevent exploitation by malicious actors.
+			\end{itemize}
+		\end{block}
+		
+		\begin{block}{Approach: }
+			Analyze web application logs to detect suspicious activities and safeguard the system.
+		\end{block}
+		
+		
+	\end{frame}
+	
+	\section{Overview of Analysis}
+	\begin{frame}
+		\frametitle{Overview of Analysis}
+		
+		\begin{block}{}
+			\begin{itemize}
+				\item Analyzed large-scale web application logs for patterns and anomalies.
+				\item Monitored HTTP status codes (e.g., 404 errors for bad requests, 200 codes for potential breaches).
+				\item Traced user requests using trace IDs for activity tracking and debugging.
+				\item Investigated user agents and request paths to identify malicious actors.
+				\item Developed strategies to mitigate identified vulnerabilities and improve response protocols.
+			\end{itemize}
+		\end{block}
+		
+	\end{frame}
+	
+
+\section{Challenges we Faced}
+\begin{frame}
+	\frametitle{Challenges we Faced}
+	
+	\begin{columns}[T,onlytextwidth]
+		% Single column for both text and image
+		\column{1.0\textwidth}
+		
+		\begin{block}{}
+			\begin{itemize}
+				\item Managing and analyzing large-scale logs for meaningful insights.
+				\item Distinguishing between genuine user activities and malicious attempts.
+				\item Handling complex patterns in user behavior and request logs.
+				%\item Ensuring timely detection and response to threats.
+				%\item Adapting solutions to handle increasing system demands and traffic.
+			\end{itemize}
+		\end{block}
+		
+		% Add vertical space
+		\vfill
+		
+		% Image placed below
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/LogSS.png} % Adjust width as needed
+		
+		% Image name below the image
+		\vskip 0.1cm % Adds a bit of vertical space between image and text
+		\centering
+		\textit{Figure: Raw log data} % You can replace this with the actual name of the image
+		
+	\end{columns}
+	
+\end{frame}
+
+
+	
+	\section{Application Sector}
+	\begin{frame}
+		\frametitle{Application Sector}
+		
+		\begin{itemize}
+			\item \textbf{Step 1: Connect the Vision Shield to the Arduino Portenta H7}
+			\begin{itemize}
+				\item Align the Vision Shield with the high-density connectors on the Portenta H7.
+				\item Press down firmly to ensure a secure connection.
+			\end{itemize}
+			
+			\item \textbf{Step 2: Connect the Arduino Portenta H7 to the Laptop}
+			\begin{itemize}
+				\item Use a USB Type-C cable to connect the Portenta H7 to your laptop.
+				\item Ensure the connection is stable and the board is powered on.
+			\end{itemize}
+			
+			\item \textbf{Step 3: Install Necessary Libraries and Dependencies}
+			\begin{itemize}
+				\item Open the Arduino IDE on your laptop.
+				\item Navigate to the Library Manager (\texttt{Sketch} $\rightarrow$ \texttt{Include Library} $\rightarrow$ \texttt{Manage Libraries}).
+				\item Install the required libraries for the Vision Shield and Portenta H7.
+			\end{itemize}
+			
+			\item \textbf{Step 4: Verify the Hardware Connection}
+			\begin{itemize}
+				\item Ensure the LED on the Portenta H7 starts blinking green.
+				\item If the board does not respond, double-press the reset button to enter bootloader mode.
+			\end{itemize}
+		\end{itemize}
+		
+	\end{frame}
+	
+	
+	\section{What the Analytics is doing?}
+	\begin{frame}
+		\frametitle{What the Analytics is doing?}
+		
+		\begin{itemize}
+			\item \textbf{Loading the Pre-trained AI Model}
+			\begin{itemize}
+				\item Obtain a pre-trained AI model optimized for object detection.
+				\item Ensure the model is compatible with the resources of the Portenta H7.
+			\end{itemize}
+			\vspace{0.3cm}
+			
+			\item \textbf{Optimizing the Model for Embedded Deployment}
+			\begin{itemize}
+				\item Convert the model to a format that can be efficiently run on the microcontroller.
+				\item Use frameworks like TensorFlow Lite for Microcontrollers.
+				\item Perform quantization to reduce the model size and inference time.
+			\end{itemize}
+			\vspace{0.3cm}
+			
+			\item \textbf{Deploying the Model on the Portenta H7}
+			\begin{itemize}
+				\item Load the converted model onto the Portenta H7's flash memory.
+				\item Utilize Arduino libraries to interface with the model.
+			\end{itemize}
+			\vspace{0.3cm}
+			
+			\item \textbf{Real-time Inference on the Portenta H7}
+			\begin{itemize}
+				\item Capture images from the Vision Shield's camera.
+				\item Pass the images to the AI model for inference.
+				\item Interpret the output to identify and classify objects in real-time.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Positioning Analytics in XYZ}
+	\begin{frame}
+		\frametitle{Positioning Analytics in XYZ}
+		\begin{itemize}
+			\item \textbf{Capturing Live Video Frames:}
+			\begin{itemize}
+				\item The Vision Shield's camera captures live video frames.
+				\item Frames are continuously fed into the Portenta H7 for processing.
+			\end{itemize}
+			\item \textbf{Processing Frames in Real-time:}
+			\begin{itemize}
+				\item Each frame is processed by the AI model deployed on the Portenta H7.
+				\item The model performs object detection, identifying and classifying objects in the frame.
+			\end{itemize}
+			\item \textbf{Annotating Detected Objects:}
+			\begin{itemize}
+				\item Detected objects are annotated directly on the video feed.
+				\item Bounding boxes and labels are overlaid to highlight detected objects.
+			\end{itemize}
+			\item \textbf{Displaying Output:}
+			\begin{itemize}
+				\item The annotated video feed is displayed on the Vision Shield's built-in display.
+				\item Real-time feedback provides immediate visual confirmation of detected objects.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	\section{Knowledge Discovery in Database (KDD) Process}
+	\begin{frame}
+		\frametitle{Knowledge Discovery in Database (KDD) Process}
+		\begin{itemize}
+			\item Live video feed from the Vision Shield's camera module.
+			\item Real-time annotation of detected objects on the video feed.
+			\item Accurate and efficient object detection and classification.
+			\item Instant visual feedback displayed on the Vision Shield's built-in display.
+			\item Potential for further customization and integration into larger systems.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Conclusion and Future Scope}
+	\begin{frame}
+		\frametitle{Conclusion and Future Scope}
+		
+		Real-time object detection with the Arduino Portenta H7 and Vision Shield has numerous applications across various industries:
+		
+		\begin{itemize}
+			\item \textbf{Surveillance and Security Systems:} Enhance security measures by detecting and identifying intruders or suspicious objects in real-time.
+			\item \textbf{Industrial Automation and Quality Control:} Ensure product quality by identifying defects or anomalies on manufacturing lines.
+			\item \textbf{Robotics and Autonomous Navigation:} Enable robots and autonomous vehicles to perceive and react to their surroundings, enhancing safety and efficiency.
+			\item \textbf{Smart Home Devices and IoT Applications:} Create intelligent devices capable of recognizing and responding to human activities or environmental changes.
+		\end{itemize}
+		
+		Real-time object detection provides valuable insights and automation capabilities in diverse fields, making it a versatile and powerful technology for modern applications.
+		
+	\end{frame}
+	
+	
+	\section{Literature}
+	\begin{frame}
+		\frametitle{Literature}
+		
+		
+		\begin{itemize}
+			\item The project showcases the potential of AI-enabled embedded systems for real-time object detection.
+			\item By leveraging the computational power of the Arduino Portenta H7 and the image processing capabilities of the Vision Shield, complex tasks like object detection can be performed efficiently and accurately in real-time.
+			\item The project opens up possibilities for a wide range of applications in industries such as surveillance, industrial automation, robotics, and IoT, where real-time object detection is crucial for decision-making and automation.
+		\end{itemize}
+		
+	\end{frame}
+	
+
+	
+\include{Slides/end}
+	
+	\end{document}
+	
