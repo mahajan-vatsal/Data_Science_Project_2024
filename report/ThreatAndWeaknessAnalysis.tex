@@ -1,4 +1,20 @@
-\documentclass[12pt,a4paper,openany]{scrbook} % Added 'openany'
+% !TeX document-id = {9ccc6fb7-c5f4-4308-9c17-4c226ad62230}
+%%%%%%
+%
+% $Autor: Wings $
+% $Datum: 2020-01-18 11:15:45Z $
+% $Pfad: WuSt/Skript/Produktspezifikation/powerpoint/ImageProcessing.tex $
+% $Version: 4620 $
+%
+%
+% !TeX encoding = utf8
+% !TeX root = Rename
+% !TeX TXS-program:bibliography = txs:///biber
+%
+%%%%%%
+
+
+\documentclass[12pt,a4paper]{scrbook}
 
 % Auswahl der Sprache
 % Die nicht gewünschte Sprache muss auskommentiert werden:
@@ -18,44 +34,57 @@
 \addbibresource{../Documents/MyLiterature.bib}
 
 \begin{document}
-	
+
 \InputLanguage{Chapters/}{Titlepage} 
 \newpage
-	
+
 \pagenumbering{roman}
 
 \tableofcontents
-\clearpage % Changed from \cleardoublepage
+\cleardoublepage
+
 
 \listoffigures
+\cleardoublepage
+
+
 \listoftables
+\cleardoublepage
+ 
 
 \InputLanguage{Chapters/}{Symbols}
 
 \printnomenclature
-\clearpage % Changed from \cleardoublepage
-	
+\cleardoublepage
+
+
 \addcontentsline{toc}{chapter}{Acronyms}
 \printacronyms
-\clearpage % Changed from \cleardoublepage
-
+\cleardoublepage
+ 
 \pagenumbering{arabic}
 
 \InputLanguage{Chapters/}{Introduction}
-\InputLanguage{Chapters/}{Positioning Your Analytics}
-\InputLanguage{Chapters/}{Knowledge Domain-Application Sector}
-\InputLanguage{Chapters/}{Purpose of Your Analytics}
-\InputLanguage{Chapters/}{Positioning Within Standard Reference Architectures}
-\InputLanguage{Chapters/}{Connected Infrastructure Components}
-\InputLanguage{Chapters/}{Major Requirements}
-\newpage
+%\InputLanguage{Chapters/}{Positioning Your Analytics}
+%\InputLanguage{Chapters/}{Knowledge Domain-Application Sector}
+%\InputLanguage{Chapters/}{Purpose of Your Analytics}
+
+%\InputLanguage{Chapters/}{Positioning Within Standard Reference Architectures}
+
+%\InputLanguage{Chapters/}{Connected Infrastructure Components}
+
+
+%\InputLanguage{Chapters/}{Major Requirements}
+
 \InputLanguage{Chapters/}{KDD}
 
-\clearpage % Changed from \cleardoublepage
+
+
+\cleardoublepage
 \addcontentsline{toc}{chapter}{\TRANS{Literaturverzeichnis}{Bibliography}}
 \printbibliography
 
-\clearpage % Changed from \cleardoublepage
+\cleardoublepage
 
 %\renewcommand{\indexname}{\TRANS{Stichwortverzeichnis}{Index}}
 %\addcontentsline{toc}{chapter}{\TRANS{Stichwortverzeichnis}{Index}}

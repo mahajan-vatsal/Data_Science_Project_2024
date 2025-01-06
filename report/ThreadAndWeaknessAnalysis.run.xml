@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>ThreadAndWeaknessAnalysis.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>ThreadAndWeaknessAnalysis.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -68,19 +68,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>ThreatAndWeaknessAnalysis</infile>
+      <infile>ThreadAndWeaknessAnalysis</infile>
     </cmdline>
     <input>
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>ThreadAndWeaknessAnalysis.bcf</file>
     </input>
     <output>
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>ThreadAndWeaknessAnalysis.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>ThreadAndWeaknessAnalysis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>ThreadAndWeaknessAnalysis.bcf</file>
     </requires>
     <requires type="editable">
       <file>../Documents/Literature.bib</file>

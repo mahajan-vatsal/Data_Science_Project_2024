@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>Rename.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>Rename.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,23 +64,23 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>ThreatAndWeaknessAnalysis</infile>
+      <infile>Rename</infile>
     </cmdline>
     <input>
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>Rename.bcf</file>
     </input>
     <output>
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>Rename.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bbl</file>
+      <file>Rename.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ThreatAndWeaknessAnalysis.bcf</file>
+      <file>Rename.bcf</file>
     </requires>
     <requires type="editable">
       <file>../Documents/Literature.bib</file>

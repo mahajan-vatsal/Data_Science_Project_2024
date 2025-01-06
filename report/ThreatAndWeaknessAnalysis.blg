@@ -1,48 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2024)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: ThreatAndWeaknessAnalysis.aux
-I found no \citation commands---while reading file ThreatAndWeaknessAnalysis.aux
-I found no \bibdata command---while reading file ThreatAndWeaknessAnalysis.aux
-I found no \bibstyle command---while reading file ThreatAndWeaknessAnalysis.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 524 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'ThreatAndWeaknessAnalysis.blg'
+[91] biber-MSWIN64:340> INFO - === 
+[133] Biber.pm:420> INFO - Reading 'ThreatAndWeaknessAnalysis.bcf'
+[229] Biber.pm:994> INFO - Found 5 citekeys in bib section 0
+[243] Biber.pm:4463> INFO - Processing section 0
+[254] Biber.pm:4654> INFO - Looking for bibtex file '../Documents/Literature.bib' for section 0
+[296] bibtex.pm:1713> INFO - LaTeX decoding ...
+[302] bibtex.pm:1519> INFO - Found BibTeX data source '../Documents/Literature.bib'
+[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[346] Biber.pm:4283> INFO - Sorting list 'anyt/global//global/global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[346] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[354] bbl.pm:676> INFO - Writing 'ThreatAndWeaknessAnalysis.bbl' with encoding 'UTF-8'
+[357] bbl.pm:779> INFO - Output to ThreatAndWeaknessAnalysis.bbl

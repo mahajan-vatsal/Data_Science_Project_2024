@@ -19,40 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global/global}
-    \entry{IEEE:2020}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=dde510cf25cbc30a28d9919c85303980}{%
-           family={Brandao},
-           familyi={B\bibinitperiod},
-           given={Andre},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{fullhash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{fullhashraw}{dde510cf25cbc30a28d9919c85303980}
-      \strng{bibnamehash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{authorbibnamehash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{authornamehash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{authorfullhash}{dde510cf25cbc30a28d9919c85303980}
-      \strng{authorfullhashraw}{dde510cf25cbc30a28d9919c85303980}
-      \field{labelalpha}{Bra20}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Conference Publication}
-      \field{title}{Log Files Analysis For Network Intrusion Detection}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9199976
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9199976
-      \endverb
-    \endentry
     \entry{IEEE:1997}{article}{}{}
       \name{author}{3}{}{%
         {{hash=b42d184c7549161c8fe0c2d53decab94}{%
@@ -98,38 +64,6 @@
       \endverb
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/621141
-      \endverb
-    \endentry
-    \entry{IEEE:2022}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=472abfae8142fdb6f39d081303e8af85}{%
-           family={IEEE},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{fullhash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{fullhashraw}{472abfae8142fdb6f39d081303e8af85}
-      \strng{bibnamehash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{authorbibnamehash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{authornamehash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{authorfullhash}{472abfae8142fdb6f39d081303e8af85}
-      \strng{authorfullhashraw}{472abfae8142fdb6f39d081303e8af85}
-      \field{labelalpha}{IEE22}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Journals and Magazine}
-      \field{title}{Landscape of Automated Log Analysis: A Systematic Literature Review and Mapping Study}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9716129
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9716129
       \endverb
     \endentry
     \entry{KDD:2000}{online}{}{}

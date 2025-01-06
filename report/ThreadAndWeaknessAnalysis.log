@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 JAN 2025 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 JAN 2025 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ThreatAndWeaknessAnalysis.tex
-(./ThreatAndWeaknessAnalysis.tex
+**ThreadAndWeaknessAnalysis.tex
+(./ThreadAndWeaknessAnalysis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (c:/texlive/2024/texmf-dist/tex/latex/koma-script/scrbook.cls
@@ -927,10 +927,10 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
-\openout4 = `ThreatAndWeaknessAnalysis.idx'.
+\openout4 = `ThreadAndWeaknessAnalysis.idx'.
 
 
-Writing index file ThreatAndWeaknessAnalysis.idx
+Writing index file ThreadAndWeaknessAnalysis.idx
 (c:/texlive/2024/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
 
@@ -952,9 +952,9 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \nomitemsep=\skip100
 )
 \@nomenclaturefile=\write5
-\openout5 = `ThreatAndWeaknessAnalysis.nlo'.
+\openout5 = `ThreadAndWeaknessAnalysis.nlo'.
 
-Package nomencl Info: Writing nomenclature file ThreatAndWeaknessAnalysis.nlo o
+Package nomencl Info: Writing nomenclature file ThreadAndWeaknessAnalysis.nlo o
 n input line 73.
 )
 
@@ -1543,8 +1543,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count562
 \@quotereset=\count563
-(./ThreatAndWeaknessAnalysis.aux)
-\openout1 = `ThreatAndWeaknessAnalysis.aux'.
+(./ThreadAndWeaknessAnalysis.aux)
+\openout1 = `ThreadAndWeaknessAnalysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
@@ -1599,9 +1599,9 @@ e
 ))
 Package hyperref Info: Link coloring OFF on input line 36.
 
-(./ThreatAndWeaknessAnalysis.out) (./ThreatAndWeaknessAnalysis.out)
+(./ThreadAndWeaknessAnalysis.out) (./ThreadAndWeaknessAnalysis.out)
 \@outlinefile=\write7
-\openout7 = `ThreatAndWeaknessAnalysis.out'.
+\openout7 = `ThreadAndWeaknessAnalysis.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -1675,12 +1675,12 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `ThreatAndWeaknessAnalysis.bcf'.
+\openout3 = `ThreadAndWeaknessAnalysis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ThreatAndWeaknessAnalysis.bbl' found.
+Package biblatex Info: ... file 'ThreadAndWeaknessAnalysis.bbl' found.
 
-(./ThreatAndWeaknessAnalysis.bbl)
+(./ThreadAndWeaknessAnalysis.bbl)
 Package biblatex Info: Reference section=0 on input line 36.
 Package biblatex Info: Reference segment=0 on input line 36.
 
@@ -1773,7 +1773,7 @@ texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/Logo.png>])
 Package tocbasic Info: character protrusion at toc deactivated on input line 43
 .
 
-(./ThreatAndWeaknessAnalysis.toc [1
+(./ThreadAndWeaknessAnalysis.toc [1
 
 
 ]
@@ -1788,17 +1788,17 @@ Package marginnote Warning: Consecutive odd pages found.
 (marginnote)                changing the page numbering on page i.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 36.
+e 34.
 )
 \tf@toc=\write8
-\openout8 = `ThreatAndWeaknessAnalysis.toc'.
+\openout8 = `ThreadAndWeaknessAnalysis.toc'.
 
  [2]
 Package tocbasic Info: character protrusion at lof deactivated on input line 47
 .
- (./ThreatAndWeaknessAnalysis.lof)
+ (./ThreadAndWeaknessAnalysis.lof)
 \tf@lof=\write9
-\openout9 = `ThreatAndWeaknessAnalysis.lof'.
+\openout9 = `ThreadAndWeaknessAnalysis.lof'.
 
  [3
 
@@ -1812,9 +1812,9 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 47
 Package tocbasic Info: character protrusion at lot deactivated on input line 51
 .
 
-(./ThreatAndWeaknessAnalysis.lot)
+(./ThreadAndWeaknessAnalysis.lot)
 \tf@lot=\write10
-\openout10 = `ThreatAndWeaknessAnalysis.lot'.
+\openout10 = `ThreadAndWeaknessAnalysis.lot'.
 
  [5
 
@@ -1823,7 +1823,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 51
 
 
 ] (./Chapters/en/Symbols.tex)
-No file ThreatAndWeaknessAnalysis.nls.
+No file ThreadAndWeaknessAnalysis.nls.
 [7
 
 
@@ -1834,18 +1834,18 @@ No file ThreatAndWeaknessAnalysis.nls.
 
 ] (./Chapters/en/Introduction.tex
 chapter 1.
-<Images/Data_Img.png, id=163, 1280.28313pt x 587.19376pt>
+<Images/Data_Img.png, id=171, 1280.28313pt x 587.19376pt>
 File: Images/Data_Img.png Graphic file (type png)
 <use Images/Data_Img.png>
 Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
 (pdftex.def)             Requested size: 302.73602pt x 138.8507pt.
-
+) (./Chapters/en/Positioning Your Analytics.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \newpage
-              [1
+l.10 \chapter
+             {Positioning Your Analytics} [1
 
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Image
@@ -1854,9 +1854,9 @@ s/Data_Img.png>] [2
 
 ]
 chapter 2.
-[3] [4]
+[3]) (./Chapters/en/Knowledge Domain-Application Sector.tex [4]
 chapter 3.
-[5
+) (./Chapters/en/Purpose of Your Analytics.tex [5
 
 
 ] [6
@@ -1864,91 +1864,108 @@ chapter 3.
 
 ]
 chapter 4.
+) (./Chapters/en/Positioning Within Standard Reference Architectures.tex
 [7] [8
 
 
 ]
 chapter 5.
-) (./Chapters/en/KDD.tex [9] [10
+<Images/RAMI_IIRA.png, id=217, 786.43813pt x 413.04312pt>
+File: Images/RAMI_IIRA.png Graphic file (type png)
+<use Images/RAMI_IIRA.png>
+Package pdftex.def Info: Images/RAMI_IIRA.png  used on input line 24.
+(pdftex.def)             Requested size: 302.73602pt x 159.00003pt.
+) (./Chapters/en/Connected Infrastructure Components.tex [9] [10 <./Images/RAMI
+_IIRA.png>]
+chapter 6.
+) (./Chapters/en/Major Requirements.tex [11
+
+
+] [12
 
 
 ]
-chapter 6.
-<Images/KDD.png, id=222, 802.197pt x 431.81325pt>
+chapter 7.
+) [13] (./Chapters/en/KDD.tex [14
+
+
+]
+chapter 8.
+<Images/KDD.png, id=247, 802.197pt x 431.81325pt>
 File: Images/KDD.png Graphic file (type png)
 <use Images/KDD.png>
 Package pdftex.def Info: Images/KDD.png  used on input line 16.
 (pdftex.def)             Requested size: 302.73602pt x 162.95743pt.
-[11] [12 <./Images/KDD.png>]
-<Images/csvFile.png, id=239, 1115.96925pt x 344.487pt>
+[15] [16 <./Images/KDD.png>]
+<Images/csvFile.png, id=264, 1115.96925pt x 344.487pt>
 File: Images/csvFile.png Graphic file (type png)
 <use Images/csvFile.png>
 Package pdftex.def Info: Images/csvFile.png  used on input line 83.
 (pdftex.def)             Requested size: 389.23108pt x 120.15173pt.
-<Images/error.png, id=241, 651.6345pt x 27.10126pt>
+<Images/error.png, id=266, 651.6345pt x 27.10126pt>
 File: Images/error.png Graphic file (type png)
 <use Images/error.png>
 Package pdftex.def Info: Images/error.png  used on input line 95.
 (pdftex.def)             Requested size: 389.23108pt x 16.18808pt.
- [13]
+ [17]
 Overfull \hbox (8.00291pt too wide) in paragraph at lines 116--117
 []\T1/cmr/m/n/12 (-20) Parsing rel^^?e^^?vant fields ([]\T1/cmtt/m/n/12 TraceId
 , HTTP Status Code, Path, User-Agent[]\T1/cmr/m/n/12 (-20) ) from
  []
 
-<Images/DataTransformation.png, id=247, 903.97725pt x 257.16075pt>
+<Images/DataTransformation.png, id=272, 903.97725pt x 257.16075pt>
 File: Images/DataTransformation.png Graphic file (type png)
 <use Images/DataTransformation.png>
 Package pdftex.def Info: Images/DataTransformation.png  used on input line 122.
 
 (pdftex.def)             Requested size: 389.23108pt x 110.72606pt.
-[14 <./Images/csvFile.png> <./Images/error.png>] [15 <./Images/DataTransformati
-on.png>] [16]
-<Images/PowerBI_1.png, id=273, 1148.49075pt x 611.28375pt>
+[18 <./Images/csvFile.png> <./Images/error.png>] [19 <./Images/DataTransformati
+on.png>] [20]
+<Images/PowerBI_1.png, id=298, 1148.49075pt x 611.28375pt>
 File: Images/PowerBI_1.png Graphic file (type png)
 <use Images/PowerBI_1.png>
 Package pdftex.def Info: Images/PowerBI_1.png  used on input line 199.
 (pdftex.def)             Requested size: 302.73602pt x 161.13129pt.
-<Images/PowerBI_2.png, id=274, 1022.01825pt x 591.4095pt>
+<Images/PowerBI_2.png, id=299, 1022.01825pt x 591.4095pt>
 File: Images/PowerBI_2.png Graphic file (type png)
 <use Images/PowerBI_2.png>
 Package pdftex.def Info: Images/PowerBI_2.png  used on input line 207.
 (pdftex.def)             Requested size: 302.73602pt x 175.18622pt.
-) [17] [18 <./Images/PowerBI_1.png> <./Images/PowerBI_2.png>]
-[19] [20
+) [21] [22 <./Images/PowerBI_1.png> <./Images/PowerBI_2.png>]
+[23] [24
 
 
-] [21
+] [25
 
 
-] [22
+] [26
 
 
 ]
-No file ThreatAndWeaknessAnalysis.ind.
+No file ThreadAndWeaknessAnalysis.ind.
 
 Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
 (acro)                \printacronyms
 
-(./ThreatAndWeaknessAnalysis.aux)
+(./ThreadAndWeaknessAnalysis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-Package rerunfilecheck Info: File `ThreatAndWeaknessAnalysis.out' has not chang
+Package rerunfilecheck Info: File `ThreadAndWeaknessAnalysis.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to 'ThreatAndWeaknessAnalysis.run.xml'.
-\openout1 = `ThreatAndWeaknessAnalysis.run.xml'.
+Package logreq Info: Writing requests to 'ThreadAndWeaknessAnalysis.run.xml'.
+\openout1 = `ThreadAndWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59744 strings out of 474104
- 1471968 string characters out of 5747502
- 2473022 words of memory out of 5000000
- 81002 multiletter control sequences out of 15000+600000
- 602831 words of font info for 231 fonts, out of 8000000 for 9000
+ 59811 strings out of 474104
+ 1474512 string characters out of 5747502
+ 2471982 words of memory out of 5000000
+ 81037 multiletter control sequences out of 15000+600000
+ 603061 words of font info for 235 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  110i,8n,111p,10920b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
@@ -1966,10 +1983,10 @@ fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type
 m-super/sfti1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
 tt1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
 >
-Output written on ThreatAndWeaknessAnalysis.pdf (31 pages, 969574 bytes).
+Output written on ThreadAndWeaknessAnalysis.pdf (35 pages, 1953146 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 460 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 42389 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 579 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 42418 words of extra memory for PDF output out of 42996 (max. 10000000)
 
