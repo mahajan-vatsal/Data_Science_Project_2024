@@ -14,7 +14,7 @@
 %%%%%%
 
 
-\documentclass[12pt,a4paper]{scrbook}
+\documentclass[12pt,a4paper,oneside]{scrbook}
 
 % Auswahl der Sprache
 % Die nicht gewünschte Sprache muss auskommentiert werden:
@@ -41,26 +41,20 @@
 \pagenumbering{roman}
 
 \tableofcontents
-\cleardoublepage
-
-
-\listoffigures
-\cleardoublepage
-
-
-\listoftables
-\cleardoublepage
- 
+%\cleardoublepage
+%\listoffigures
+%\cleardoublepage
+%\listoftables
+%\cleardoublepage
 
 \InputLanguage{Chapters/}{Symbols}
 
 \printnomenclature
-\cleardoublepage
-
+%\cleardoublepage
 
 \addcontentsline{toc}{chapter}{Acronyms}
-\printacronyms
-\cleardoublepage
+%\printacronyms
+%\cleardoublepage
  
 \pagenumbering{arabic}
 
@@ -78,13 +72,11 @@
 
 \InputLanguage{Chapters/}{KDD}
 
-
-
-\cleardoublepage
+%\clearpage % instead of \cleardoublepage
 \addcontentsline{toc}{chapter}{\TRANS{Literaturverzeichnis}{Bibliography}}
 \printbibliography
 
-\cleardoublepage
+%\cleardoublepage
 
 %\renewcommand{\indexname}{\TRANS{Stichwortverzeichnis}{Index}}
 %\addcontentsline{toc}{chapter}{\TRANS{Stichwortverzeichnis}{Index}}

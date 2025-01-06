@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 JAN 2025 19:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  6 JAN 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,6 +48,12 @@ Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             If you'd like to set the option with \KOMAoptions,
 (scrbook)             you'd have to use `fontsize=12pt' there
 (scrbook)             instead of `12pt', too.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
 Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
 ne 2691.
 
@@ -65,6 +71,12 @@ Package typearea Info: You've used standard option `a4paper'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=a4' there
 (typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
 \ta@hblk=\skip50
 \ta@vblk=\skip51
 \ta@temp=\skip52
@@ -75,8 +87,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 27.31467pt
-(typearea)              \oddsidemargin  = -22.47766pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 635.5pt
 (typearea)              \topmargin      = -41.72441pt
@@ -1640,7 +1652,7 @@ or `english'. on input line 36.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 22.76219pt
-* modes: includehead includefoot twoside 
+* modes: includehead includefoot 
 * h-part:(L,W,R)=(71.13188pt, 432.48192pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -1654,7 +1666,7 @@ or `english'. on input line 36.
 * \headsep=21.75pt
 * \topskip=12.0pt
 * \footskip=50.75pt
-* \marginparwidth=74.68849pt
+* \marginparwidth=49.79233pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -1662,8 +1674,8 @@ or `english'. on input line 36.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1777,161 +1789,116 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43
 
 
 ]
-
-Package marginnote Warning: Consecutive odd pages found.
-(marginnote)                Note, it is not recommended to use consecutive
-(marginnote)                odd pages in a double-ended document.
-(marginnote)                The pages of your document should always
-(marginnote)                be a sequence: odd-even-odd-even-...
-(marginnote)                Maybe you've forgotten a \cleardoubleoddpage before
-
-(marginnote)                changing the page numbering on page i.
-
 Package marginnote Info: Using workaround for absolute page number on input lin
 e 36.
 )
 \tf@toc=\write8
 \openout8 = `ThreatAndWeaknessAnalysis.toc'.
 
- [2]
-Package tocbasic Info: character protrusion at lof deactivated on input line 47
-.
- (./ThreatAndWeaknessAnalysis.lof)
-\tf@lof=\write9
-\openout9 = `ThreatAndWeaknessAnalysis.lof'.
-
- [3
-
-
-
-
-] [4
-
-
-]
-Package tocbasic Info: character protrusion at lot deactivated on input line 51
-.
-
-(./ThreatAndWeaknessAnalysis.lot)
-\tf@lot=\write10
-\openout10 = `ThreatAndWeaknessAnalysis.lot'.
-
- [5
-
-
-] [6
-
-
-] (./Chapters/en/Symbols.tex)
+ (./Chapters/en/Symbols.tex)
 No file ThreatAndWeaknessAnalysis.nls.
-[7
-
-
-
-
-] [8
-
-
-] (./Chapters/en/Introduction.tex
-chapter 1.
-<Images/Data_Img.png, id=163, 1280.28313pt x 587.19376pt>
-File: Images/Data_Img.png Graphic file (type png)
-<use Images/Data_Img.png>
-Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
-(pdftex.def)             Requested size: 302.73602pt x 138.8507pt.
-
+(./Chapters/en/Introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \newpage
-              [1
+l.10 \chapter
+             {Introduction} [1]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 10.
+
+chapter 1.
+<Images/Data_Img.png, id=118, 1280.28313pt x 587.19376pt>
+File: Images/Data_Img.png Graphic file (type png)
+<use Images/Data_Img.png>
+Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
+(pdftex.def)             Requested size: 302.73602pt x 138.8507pt.
+[2
 
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Image
-s/Data_Img.png>] [2
-
-
-]
+s/Data_Img.png>]
 chapter 2.
-[3] [4]
+[3
+
+
+] [4]
 chapter 3.
 [5
 
 
-] [6
-
-
 ]
 chapter 4.
-[7] [8
+[6
 
 
 ]
 chapter 5.
-) (./Chapters/en/KDD.tex [9] [10
+) (./Chapters/en/KDD.tex [7
 
 
 ]
 chapter 6.
-<Images/KDD.png, id=222, 802.197pt x 431.81325pt>
+<Images/KDD.png, id=161, 802.197pt x 431.81325pt>
 File: Images/KDD.png Graphic file (type png)
 <use Images/KDD.png>
 Package pdftex.def Info: Images/KDD.png  used on input line 16.
 (pdftex.def)             Requested size: 302.73602pt x 162.95743pt.
-[11] [12 <./Images/KDD.png>]
-<Images/csvFile.png, id=239, 1115.96925pt x 344.487pt>
+[8
+
+
+]
+<Images/RawInput.png, id=174, 1152.10425pt x 444.4605pt>
+File: Images/RawInput.png Graphic file (type png)
+<use Images/RawInput.png>
+Package pdftex.def Info: Images/RawInput.png  used on input line 47.
+(pdftex.def)             Requested size: 389.23108pt x 150.15831pt.
+ [9 <./Images/KDD.png> <./Images/RawInput.png>] [10]
+<Images/csvFile.png, id=188, 1115.96925pt x 344.487pt>
 File: Images/csvFile.png Graphic file (type png)
 <use Images/csvFile.png>
-Package pdftex.def Info: Images/csvFile.png  used on input line 83.
+Package pdftex.def Info: Images/csvFile.png  used on input line 91.
 (pdftex.def)             Requested size: 389.23108pt x 120.15173pt.
-<Images/error.png, id=241, 651.6345pt x 27.10126pt>
+<Images/error.png, id=190, 651.6345pt x 27.10126pt>
 File: Images/error.png Graphic file (type png)
 <use Images/error.png>
-Package pdftex.def Info: Images/error.png  used on input line 95.
+Package pdftex.def Info: Images/error.png  used on input line 103.
 (pdftex.def)             Requested size: 389.23108pt x 16.18808pt.
- [13]
-Overfull \hbox (8.00291pt too wide) in paragraph at lines 116--117
+ [11 <./Images/csvFile.png> <./Images/error.png>]
+Overfull \hbox (8.00291pt too wide) in paragraph at lines 124--125
 []\T1/cmr/m/n/12 (-20) Parsing rel^^?e^^?vant fields ([]\T1/cmtt/m/n/12 TraceId
 , HTTP Status Code, Path, User-Agent[]\T1/cmr/m/n/12 (-20) ) from
  []
 
-<Images/DataTransformation.png, id=247, 903.97725pt x 257.16075pt>
+<Images/DataTransformation.png, id=201, 903.97725pt x 257.16075pt>
 File: Images/DataTransformation.png Graphic file (type png)
 <use Images/DataTransformation.png>
-Package pdftex.def Info: Images/DataTransformation.png  used on input line 122.
+Package pdftex.def Info: Images/DataTransformation.png  used on input line 130.
 
 (pdftex.def)             Requested size: 389.23108pt x 110.72606pt.
-[14 <./Images/csvFile.png> <./Images/error.png>] [15 <./Images/DataTransformati
-on.png>] [16]
-<Images/PowerBI_1.png, id=273, 1148.49075pt x 611.28375pt>
-File: Images/PowerBI_1.png Graphic file (type png)
-<use Images/PowerBI_1.png>
-Package pdftex.def Info: Images/PowerBI_1.png  used on input line 199.
+[12 <./Images/DataTransformation.png>] [13] [14]
+<Images/PowerBI1.png, id=233, 829.29825pt x 472.76625pt>
+File: Images/PowerBI1.png Graphic file (type png)
+<use Images/PowerBI1.png>
+Package pdftex.def Info: Images/PowerBI1.png  used on input line 218.
+(pdftex.def)             Requested size: 302.73602pt x 172.5835pt.
+<Images/PowerBI2.png, id=234, 1148.49075pt x 611.28375pt>
+File: Images/PowerBI2.png Graphic file (type png)
+<use Images/PowerBI2.png>
+Package pdftex.def Info: Images/PowerBI2.png  used on input line 226.
 (pdftex.def)             Requested size: 302.73602pt x 161.13129pt.
-<Images/PowerBI_2.png, id=274, 1022.01825pt x 591.4095pt>
-File: Images/PowerBI_2.png Graphic file (type png)
-<use Images/PowerBI_2.png>
-Package pdftex.def Info: Images/PowerBI_2.png  used on input line 207.
+<Images/PowerBI3.png, id=235, 1022.01825pt x 591.4095pt>
+File: Images/PowerBI3.png Graphic file (type png)
+<use Images/PowerBI3.png>
+Package pdftex.def Info: Images/PowerBI3.png  used on input line 234.
 (pdftex.def)             Requested size: 302.73602pt x 175.18622pt.
-) [17] [18 <./Images/PowerBI_1.png> <./Images/PowerBI_2.png>]
-[19] [20
-
-
-] [21
-
-
-] [22
-
-
-]
+) [15 <./Images/PowerBI1.png>]
+[16 <./Images/PowerBI2.png> <./Images/PowerBI3.png>] [17]
 No file ThreatAndWeaknessAnalysis.ind.
+[18
 
-Package acro Warning: Empty acronym list. If you have used acronyms then
-(acro)                re-compile to get the list filled. Otherwise remove
-(acro)                \printacronyms
 
-(./ThreatAndWeaknessAnalysis.aux)
+] (./ThreatAndWeaknessAnalysis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1944,11 +1911,11 @@ Package logreq Info: Writing requests to 'ThreatAndWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59744 strings out of 474104
- 1471968 string characters out of 5747502
- 2473022 words of memory out of 5000000
- 81002 multiletter control sequences out of 15000+600000
- 602831 words of font info for 231 fonts, out of 8000000 for 9000
+ 59733 strings out of 474104
+ 1471726 string characters out of 5747502
+ 2473363 words of memory out of 5000000
+ 80996 multiletter control sequences out of 15000+600000
+ 603056 words of font info for 235 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  110i,8n,111p,10920b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
@@ -1966,10 +1933,10 @@ fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type
 m-super/sfti1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
 tt1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
 >
-Output written on ThreatAndWeaknessAnalysis.pdf (31 pages, 981322 bytes).
+Output written on ThreatAndWeaknessAnalysis.pdf (20 pages, 1230902 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 460 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 42389 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 42391 words of extra memory for PDF output out of 42996 (max. 10000000)
 
