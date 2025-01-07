@@ -1,9 +1,9 @@
 \acswitchoff 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Acronyms}{vii}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Challenges and Results}{1}{section.1.2}%
+\contentsline {chapter}{Acronyms}{1}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Challenges and Results}{2}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Positioning Your Analytics}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Existing Solutions}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}State-of-the-Art}{3}{section.2.2}%
@@ -13,39 +13,41 @@
 \contentsline {subsection}{\numberline {2.2.4}Emerging Trends}{4}{subsection.2.2.4}%
 \contentsline {chapter}{\numberline {3}Application Sector}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Application Sector}{5}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Purpose of Your Analytics}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}What It Does}{7}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Major Requirements}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requirements}{9}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Knowledge Discovery in Databases (KDD) Process}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Topic Description}{11}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Special Challenges}{11}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Database}{12}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Data Selection}{12}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Origin}{12}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Data Format}{12}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Features}{13}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Size}{13}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Data Preparation}{13}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Merging and Conversion}{13}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Initial Cleaning}{13}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Key Attributes}{14}{subsection.6.4.3}%
-\contentsline {section}{\numberline {6.5}Data Transformation}{14}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Data Mining}{15}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Feature Extraction}{15}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Clustering}{15}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Anormalities}{16}{subsection.6.6.3}%
-\contentsline {section}{\numberline {6.7}Model}{16}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}DBSCAN}{16}{subsection.6.7.1}%
-\contentsline {subsubsection}{\nonumberline Key Parameters}{16}{subsubsection*.6}%
-\contentsline {subsubsection}{\nonumberline Outcome}{16}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {6.7.2}Isolation Forest}{16}{subsection.6.7.2}%
-\contentsline {subsubsection}{\nonumberline Key Parameters}{16}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Outcome}{17}{subsubsection*.12}%
-\contentsline {section}{\numberline {6.8}Validation/Verification}{17}{section.6.8}%
-\contentsline {subsection}{\numberline {6.8.1}DBSCAN Validation}{17}{subsection.6.8.1}%
-\contentsline {subsection}{\numberline {6.8.2}Isolation Forest Validation}{17}{subsection.6.8.2}%
-\contentsline {section}{\numberline {6.9}Data Visualization}{17}{section.6.9}%
-\contentsline {section}{\numberline {6.10}Conclusion}{17}{section.6.10}%
-\contentsline {chapter}{ Bibliography}{21}{section.6.10}%
+\contentsline {chapter}{\numberline {4}Purpose of Your Analytics}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}What It Does}{6}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Major Requirements}{7}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requirements}{7}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Knowledge Discovery in Databases (KDD) Process}{8}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Topic Description}{8}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Special Challenges}{8}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Database}{9}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Data Selection}{10}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Origin}{10}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Data Format}{10}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Features}{10}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Size}{10}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Data Preparation}{10}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Merging and Conversion}{11}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Initial Cleaning}{11}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Key Attributes}{11}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Data Transformation}{12}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Data Mining}{12}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Feature Extraction}{12}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Clustering and Anomaly Detection}{13}{subsection.6.6.2}%
+\contentsline {subsubsection}{\nonumberline Approach 1}{13}{subsubsection*.3}%
+\contentsline {subsubsection}{\nonumberline Approach 2}{13}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Approach 3}{13}{subsubsection*.7}%
+\contentsline {section}{\numberline {6.7}Model}{13}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}DBSCAN}{13}{subsection.6.7.1}%
+\contentsline {subsubsection}{\nonumberline Key Parameters}{14}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Outcome}{14}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {6.7.2}Isolation Forest}{14}{subsection.6.7.2}%
+\contentsline {subsubsection}{\nonumberline Key Parameters}{14}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Outcome}{14}{subsubsection*.15}%
+\contentsline {section}{\numberline {6.8}Validation/Verification}{14}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}DBSCAN Validation}{14}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Isolation Forest Validation}{15}{subsection.6.8.2}%
+\contentsline {section}{\numberline {6.9}Data Visualization}{15}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Conclusion}{15}{section.6.10}%
+\contentsline {chapter}{ Bibliography}{17}{section.6.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
