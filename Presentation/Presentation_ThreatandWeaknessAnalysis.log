@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  7 JAN 2025 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  7 JAN 2025 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,9 +907,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-202517971.tex)...disabled (restricted).
+runsystem(touch w18-test-202517978.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202517971.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202517978.tex)...disabled (restricted).
 
 runsystem(rm -f "Presentation_ThreatandWeaknessAnalysis.gnuploterrors")...disab
 led (restricted).
@@ -1501,7 +1501,7 @@ Package biblatex Info: Reference segment=0 on input line 26.
 \c@lstlisting=\count509
 
 (./Presentation_ThreatandWeaknessAnalysis.nav)
-<img/technik.jpg, id=25, 231.9867pt x 77.8107pt>
+<img/technik.jpg, id=37, 231.9867pt x 77.8107pt>
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 26.
@@ -1523,7 +1523,7 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 15--15
 [][]  
  []
 
-<img/hintergrund2.png, id=26, 986.68625pt x 473.77pt>
+<img/hintergrund2.png, id=38, 986.68625pt x 473.77pt>
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
 Package pdftex.def Info: img/hintergrund2.png  used on input line 15.
@@ -1628,7 +1628,7 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 106--106
 [][]  
  []
 
-<images/LogSS.png, id=196, 673.51625pt x 310.15875pt>
+<images/LogSS.png, id=211, 673.51625pt x 310.15875pt>
 File: images/LogSS.png Graphic file (type png)
 <use images/LogSS.png>
 Package pdftex.def Info: images/LogSS.png  used on input line 106.
@@ -1708,7 +1708,7 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 170--170
 [][]  
  []
 
-<images/csvFIle.png, id=306, 1115.96925pt x 344.487pt>
+<images/csvFIle.png, id=320, 1115.96925pt x 344.487pt>
 File: images/csvFIle.png Graphic file (type png)
 <use images/csvFIle.png>
 Package pdftex.def Info: images/csvFIle.png  used on input line 170.
@@ -1731,7 +1731,7 @@ ut line 170.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<images/error.png, id=307, 651.6345pt x 27.10126pt>
+<images/error.png, id=321, 651.6345pt x 27.10126pt>
 File: images/error.png Graphic file (type png)
 <use images/error.png>
 Package pdftex.def Info: images/error.png  used on input line 170.
@@ -1761,7 +1761,7 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 195--195
 [][]  
  []
 
-<images/DataTransformation.png, id=347, 903.97725pt x 257.16075pt>
+<images/DataTransformation.png, id=361, 903.97725pt x 257.16075pt>
 File: images/DataTransformation.png Graphic file (type png)
 <use images/DataTransformation.png>
 Package pdftex.def Info: images/DataTransformation.png  used on input line 195.
@@ -1896,12 +1896,12 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 335--335
 [][]  
  []
 
-<images/PowerBI_1.png, id=542, 1148.49075pt x 611.28375pt>
+<images/PowerBI_1.png, id=559, 1148.49075pt x 611.28375pt>
 File: images/PowerBI_1.png Graphic file (type png)
 <use images/PowerBI_1.png>
 Package pdftex.def Info: images/PowerBI_1.png  used on input line 335.
 (pdftex.def)             Requested size: 147.49782pt x 78.49962pt.
-<images/PowerBI_2.png, id=543, 1022.01825pt x 591.4095pt>
+<images/PowerBI_2.png, id=560, 1022.01825pt x 591.4095pt>
 File: images/PowerBI_2.png Graphic file (type png)
 <use images/PowerBI_2.png>
 Package pdftex.def Info: images/PowerBI_2.png  used on input line 335.
@@ -2016,27 +2016,19 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-Package rerunfilecheck Warning: File `Presentation_ThreatandWeaknessAnalysis.ou
-t' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Presentation_ThreatandWeaknessAnaly
-sis.out':
-(rerunfilecheck)             Before: 75131F53350E6F0E224FEB43C980C32C;569
-(rerunfilecheck)             After:  20DC086D6208A9C253C525237B5FD615;909.
+Package rerunfilecheck Info: File `Presentation_ThreatandWeaknessAnalysis.out' 
+has not changed.
+(rerunfilecheck)             Checksum: 20DC086D6208A9C253C525237B5FD615;909.
 Package logreq Info: Writing requests to 'Presentation_ThreatandWeaknessAnalysi
 s.run.xml'.
 \openout1 = `Presentation_ThreatandWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39647 strings out of 474050
- 816275 string characters out of 5746299
+ 39665 strings out of 474050
+ 816431 string characters out of 5746299
  1948754 words of memory out of 5000000
- 61313 multiletter control sequences out of 15000+600000
+ 61331 multiletter control sequences out of 15000+600000
  564978 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,21n,123p,1908b,2342s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2047,11 +2039,11 @@ t/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmssi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmssi9.pfb>
-Output written on Presentation_ThreatandWeaknessAnalysis.pdf (17 pages, 1864918
+Output written on Presentation_ThreatandWeaknessAnalysis.pdf (17 pages, 1865644
  bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
+ 739 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
  41 named destinations out of 1000 (max. 500000)
- 701 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'ThreatAndWeaknessAnalysis.blg'
-[201] biber-MSWIN64:340> INFO - === 
-[256] Biber.pm:420> INFO - Reading 'ThreatAndWeaknessAnalysis.bcf'
-[475] Biber.pm:994> INFO - Found 5 citekeys in bib section 0
-[503] Biber.pm:4463> INFO - Processing section 0
-[527] Biber.pm:4654> INFO - Looking for bibtex file '../Documents/Literature.bib' for section 0
-[582] bibtex.pm:1713> INFO - LaTeX decoding ...
-[596] bibtex.pm:1519> INFO - Found BibTeX data source '../Documents/Literature.bib'
+[256] biber-MSWIN64:340> INFO - === 
+[376] Biber.pm:420> INFO - Reading 'ThreatAndWeaknessAnalysis.bcf'
+[488] Biber.pm:994> INFO - Found 5 citekeys in bib section 0
+[501] Biber.pm:4463> INFO - Processing section 0
+[539] Biber.pm:4654> INFO - Looking for bibtex file '../Documents/Literature.bib' for section 0
+[601] bibtex.pm:1713> INFO - LaTeX decoding ...
+[615] bibtex.pm:1519> INFO - Found BibTeX data source '../Documents/Literature.bib'
 [708] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [708] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [708] Biber.pm:4283> INFO - Sorting list 'anyt/global//global/global/global' of type 'entry' with template 'anyt' and locale 'en-US'
 [708] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[733] bbl.pm:676> INFO - Writing 'ThreatAndWeaknessAnalysis.bbl' with encoding 'UTF-8'
-[740] bbl.pm:779> INFO - Output to ThreatAndWeaknessAnalysis.bbl
+[750] bbl.pm:676> INFO - Writing 'ThreatAndWeaknessAnalysis.bbl' with encoding 'UTF-8'
+[753] bbl.pm:779> INFO - Output to ThreatAndWeaknessAnalysis.bbl
