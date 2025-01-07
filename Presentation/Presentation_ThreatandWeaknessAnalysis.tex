@@ -1,4 +1,6 @@
 \documentclass[10pt, a4paper]{beamer}
+\usepackage{graphicx} % For including images
+\usepackage{caption}  % For \captionof{figure}
 %\documentclass{article}
 
 %Metadaten
@@ -7,9 +9,9 @@
 \subtitle{ORGADATA COMPANY, LEER}
 \newcommand{\additionalsubtitle}{Data Science} 
 \author{
-		Manoj Selvaraju - 7025649 \\ 
-		Vatsal Mahajan - 7025694\\ 
-		Vijay Singh - 7025700
+	Manoj Selvaraju - 7025649 \\ 
+	Vatsal Mahajan - 7025694\\ 
+	Vijay Singh - 7025700
 }
 
 %\date{\today}
@@ -23,63 +25,159 @@
 
 \begin{document}
 	
-\include{Slides/start}
-
-	    \section{Introduction}
-		\begin{frame}
+	\include{Slides/start}
+	
+	
+	%%% Vijay's content, last me conclusion add krna mt bhul na.
+	
+	\section{Introduction}
+	\begin{frame}
 		\frametitle{Introduction}
 		
-		\begin{block}{Objective:}
-			Identify and mitigate potential threats and weaknesses in Orgadata’s SimplyTag system.
-		\end{block}
-		
-		
-		\begin{block}{Background:}
+		\begin{block}{About ORGADATA:}
 			\begin{itemize}
-				\item SimplyTag is a web application enabling quick access to construction-related data.
-				\item Ensuring data integrity is critical to prevent exploitation by malicious actors.
+				\item Orgadata is a leading software company, Specializes in solutions for window and door construction, offering products like Logikal.
+				\item Logikal is Orgadata's software that helps users design, calculate, and manage the production of windows and doors efficiently from start to finish.
 			\end{itemize}
 		\end{block}
 		
-		\begin{block}{Approach: }
-			Analyze web application logs to detect suspicious activities and safeguard the system.
+		\begin{block}{Why?}
+			\begin{itemize}
+				\item As a student of Industrial Informatics, We have studied how to digitalize products and processes in line with Industry 4.0 principles.
+				\item In today’s digital age, safeguarding sensitive information and system integrity is crucial.
+				\item Threat and Weakness Analysis is an essential step in mitigating risks, preventing breaches, and ensuring operational resilience.	
+			\end{itemize}
 		\end{block}
-		
 		
 	\end{frame}
 	
-	\section{Overview of Analysis}
+	
+	
+	\section{Purpose of Analysis}
 	\begin{frame}
-		\frametitle{Overview of Analysis}
+		\frametitle{Purpose of Analysis}
 		
 		\begin{block}{}
 			\begin{itemize}
-				\item Analyzed large-scale web application logs for patterns and anomalies.
-				\item Monitored HTTP status codes (e.g., 404 errors for bad requests, 200 codes for potential breaches).
-				\item Traced user requests using trace IDs for activity tracking and debugging.
-				\item Investigated user agents and request paths to identify malicious actors.
-				\item Developed strategies to mitigate identified vulnerabilities and improve response protocols.
+				\item Exploit exposed endpoints or unauthorized access.
+				\item Detecting vulnerabilities in Orgadata's systems that could be exploited by malicious actors.
+				\item Prevent unauthorized access attempts.
+				\item Improve data security by safeguarding sensitive information of customer and operational data against breaches.
+				\item Build a predictive model using the KDD process to classify threats and evaluate system requests effectively.
+				\item Provide actionable insights to enhance system security and performance.
 			\end{itemize}
 		\end{block}
 		
 	\end{frame}
 	
-
-\section{Challenges we Faced}
-\begin{frame}
-	\frametitle{Challenges we Faced}
 	
-	\begin{columns}[T,onlytextwidth]
-		% Single column for both text and image
-		\column{1.0\textwidth}
+	\section{Challenges}
+	\begin{frame}
+		\frametitle{Challenges we Faced}
 		
+		\begin{columns}[T,onlytextwidth]
+			% Single column for both text and image
+			\column{1.0\textwidth}
+			
+			\begin{block}{}
+				\begin{itemize}
+					\item Managing and analyzing large-scale logs for meaningful insights.
+					\item Distinguishing between genuine user activities and malicious attempts.
+					\item Handling complex patterns in user behavior and request logs.
+					%\item Ensuring timely detection and response to threats.
+					%\item Adapting solutions to handle increasing system demands and traffic.
+				\end{itemize}
+			\end{block}
+			
+			% Add vertical space
+			\vfill
+			
+			% Image placed below
+			\centering
+			\includegraphics[width=0.8\textwidth]{images/LogSS.png} % Adjust width as needed
+			
+			% Image name below the image
+			\vskip 0.1cm % Adds a bit of vertical space between image and text
+			\centering
+			\textit{Figure: Raw log data} % You can replace this with the actual name of the image
+			
+		\end{columns}
+		
+	\end{frame}
+	
+	
+	
+	\section{Knowledge Discovery in Database (KDD) Process}
+	\begin{frame}
+		\frametitle{Knowledge Discovery in Database (KDD) Process}
+		\begin{block}{Data Selection:}
+			Identify and Extract relevant data from log files while filtering out irrelevant information.
+			\begin{itemize}
+				\item \textbf{Data Origin:} Logs were sourced from monitoring tools and event management systems, specifically collected via the \textit{Graylog server}.
+				\item \textbf{Format:} \textit{.log} format.
+				\item \textbf{Size:} 3.34 GB
+				\item \textbf{Features:} Timestamps, PID, Logger, Message, Scope (e.g., TraceId, RequestID), Application, State, EventID.
+			\end{itemize}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Data Preparation:} 
+		Making dataset clean, consistent, and ready for analysis.
 		\begin{block}{}
 			\begin{itemize}
-				\item Managing and analyzing large-scale logs for meaningful insights.
-				\item Distinguishing between genuine user activities and malicious attempts.
-				\item Handling complex patterns in user behavior and request logs.
-				%\item Ensuring timely detection and response to threats.
-				%\item Adapting solutions to handle increasing system demands and traffic.
+				\item \textbf{Merging and Conversion:}
+				\begin{itemize}
+					\item Consolidated nine individual log files into a single file.
+					\item Converted the consolidated file from \textit{.log} format to \textit{CSV} format.
+				\end{itemize}
+				\item \textbf{Initial Cleaning:}
+				\begin{itemize}
+					\item Removed entries which are lacking valid \textbf{TraceId}.
+					\item Excluded error or warning messages.
+				\end{itemize}
+				\item \textbf{Key Attributes:}
+				\begin{itemize}
+					\item \textbf{TraceId:} Tracks individual requests across log entries.
+					\item \textbf{HTTP Status Code:} Provides insights into request results:
+					\begin{itemize}
+						\item \textbf{200:} Successful requests.
+						\item \textbf{404:} Client-side errors (e.g., broken links).
+						\item \textbf{500:} Server-side errors indicating system issues.
+					\end{itemize}
+					\item \textbf{Paths:} Represents the API endpoint or resource accessed.
+					\item \textbf{User-Agent} Captures details about the client or system making the request.
+				\end{itemize}
+			\end{itemize}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Data Preparation:} 
+		
+		\begin{minipage}{\textwidth}
+			\centering
+			\includegraphics[width=1\textwidth]{images/csvFIle.png}
+			\captionof{figure}{2.CSV File}
+		\end{minipage}
+		\vspace{0.5cm} % Add vertical space between images
+		\begin{minipage}{\textwidth}
+			\centering
+			\includegraphics[width=1\textwidth]{images/error.png}
+			\captionof{figure}{3.Error Message}
+		\end{minipage}
+		
+	\end{frame}
+	
+	
+	\begin{frame}
+		\frametitle{Data Transformation}
+		\begin{block}{}
+			Restructure and manipulate the cleaned data for analysis.
+			\begin{itemize}
+				\item Grouped log entries by TraceId to rebuild complete request flows
+				\item Parsed fields from nested JSON structures: TraceId, HTTP Status Code, Path, User-Agent.
+				\item Transformed each log entry into a distinct row, aligning TraceId with its corresponding attributes for seamless analysis.
 			\end{itemize}
 		\end{block}
 		
@@ -88,144 +186,174 @@
 		
 		% Image placed below
 		\centering
-		\includegraphics[width=0.8\textwidth]{images/LogSS.png} % Adjust width as needed
+		\includegraphics[width=1\textwidth]{images/DataTransformation.png} % Adjust width as needed
 		
 		% Image name below the image
 		\vskip 0.1cm % Adds a bit of vertical space between image and text
 		\centering
-		\textit{Figure: Raw log data} % You can replace this with the actual name of the image
-		
-	\end{columns}
+		\captionof{figure}{4.Bar Chart}% You can replace this with the actual name of the image
+	\end{frame}
 	
-\end{frame}
-
-
-	
-	\section{Application Sector}
 	\begin{frame}
-		\frametitle{Application Sector}
+		\frametitle{Data Mining}
 		
-		\begin{itemize}
-			\item \textbf{Step 1: Connect the Vision Shield to the Arduino Portenta H7}
+		\begin{block}{Feature Extraction}
+			Extracted hidden patterns and anomalies from the selected data.
 			\begin{itemize}
-				\item Align the Vision Shield with the high-density connectors on the Portenta H7.
-				\item Press down firmly to ensure a secure connection.
+				\item \textbf{Path-Based Features (Approach 1 \& 2):}
+				\begin{itemize}
+					\item Extracted key features based on the Path attribute. Features included:
+					\begin{itemize}
+						\item \textbf{Path length}
+						\item \textbf{Presence of special characters}
+						\item \textbf{SQL keywords}
+						\item \textbf{Path traversal attempts}
+						\item \textbf{Suspicious file extensions}
+					\end{itemize}
+					\item Applied TF-IDF vectorization on the Path attribute to convert API endpoint access into numerical features for machine learning.
+				\end{itemize}
+				
+				\item \textbf{User-Agent Analysis (Approach 3):}
+				\begin{itemize}
+					\item Analyzed User-Agent strings to detect patterns linked to suspicious or malicious activities.
+				\end{itemize}
 			\end{itemize}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Data Mining}
+		
+		\begin{block}{Clustering and Anomaly Detection}
 			
-			\item \textbf{Step 2: Connect the Arduino Portenta H7 to the Laptop}
 			\begin{itemize}
-				\item Use a USB Type-C cable to connect the Portenta H7 to your laptop.
-				\item Ensure the connection is stable and the board is powered on.
+				\item Approach 1: Path and Frequency-Based Clustering
+				\begin{itemize}
+					\item Combined extracted path features with frequency metrics and HTTP status codes.
+					\item Used \textbf{DBSCAN} for clustering and \textbf{Isolation Forest} for outlier detection.
+				\end{itemize}
+				\item Approach 2: TF-IDF and Clustering
+				\begin{itemize}
+					\item Utilized TF-IDF vectorized features and numeric attributes for clustering.
+					\item Integrated \textbf{DBSCAN} and \textbf{Isolation Forest} for robust anomaly detection, flagging unusual requests.
+				\end{itemize}
+				
+				\item Approach 3: User-Agent Pattern Analysis
+				\begin{itemize}
+					\item Focused on identifying suspicious behaviors using \textbf{User-Agent} patterns.
+				\end{itemize}
 			\end{itemize}
-			
-			\item \textbf{Step 3: Install Necessary Libraries and Dependencies}
-			\begin{itemize}
-				\item Open the Arduino IDE on your laptop.
-				\item Navigate to the Library Manager (\texttt{Sketch} $\rightarrow$ \texttt{Include Library} $\rightarrow$ \texttt{Manage Libraries}).
-				\item Install the required libraries for the Vision Shield and Portenta H7.
-			\end{itemize}
-			
-			\item \textbf{Step 4: Verify the Hardware Connection}
-			\begin{itemize}
-				\item Ensure the LED on the Portenta H7 starts blinking green.
-				\item If the board does not respond, double-press the reset button to enter bootloader mode.
-			\end{itemize}
-		\end{itemize}
+		\end{block}
 		
 	\end{frame}
 	
-	
-	\section{What the Analytics is doing?}
 	\begin{frame}
-		\frametitle{What the Analytics is doing?}
+		\frametitle{Data Modelling}
+		Used Unsupervised learning to perform clustering and anomaly detection
+		
+		\begin{columns}
+			% Left column for DBSCAN
+			\column{0.5\textwidth}
+			\begin{block}{Model 1: DBSCAN}
+				\begin{itemize}
+					\item \textbf{Purpose:} Group data points based on density; flag points that don’t belong to any cluster as anomalies.
+				\end{itemize}
+				\begin{itemize}
+					\item \textbf{Key Parameters:}
+					\begin{itemize}
+						\item \textbf{eps: 0.5}
+						\item \textbf{min\_samples: 5}
+					\end{itemize}
+				\end{itemize}
+				\begin{itemize}
+					\item \textbf{Outcome:} Requests not assigned to any cluster (cluster = -1) were flagged as anomalies.
+				\end{itemize}
+			\end{block}
+			
+			% Right column for Isolation Forest
+			\column{0.5\textwidth}
+			\begin{block}{Model 2: Isolation Forest}
+				\begin{itemize}
+					\item \textbf{Purpose:} Detect anomalies by isolating data points, as anomalies are easier to separate from the rest of the data.
+				\end{itemize}
+				\begin{itemize}
+					\item \textbf{Key Parameters:}
+					\begin{itemize}
+						\item \textbf{n\_estimators: 100} 
+						\item \textbf{contamination: 0.01}
+						\item \textbf{random\_state: 42}
+					\end{itemize}
+				\end{itemize}
+				\begin{itemize}
+					\item \textbf{Outcome:} Anomalous requests were flagged with a value of -1.
+				\end{itemize}
+			\end{block}
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Validation/ Verification}
+		Ensure the reliability and accuracy of data mining and anomaly detection processes
+		\begin{block}{DBSCAN Validation}
+			\begin{itemize}
+				\item \textbf{Cluster Review:} Verified data points within clusters had similar patterns.
+				\item \textbf{Anomaly Inspection:} Manually checked anomalies (Cluster = -1) for normal deviations.
+			\end{itemize}
+		\end{block}
+		
+		\vspace{0.5cm} % Adds vertical space between the blocks
+		
+		\begin{block}{Isolation Forest Validation}
+			\begin{itemize}
+				\item \textbf{Anomaly Score Distribution:}  Assessed scores to differentiate anomalies from regular requests.
+				\item \textbf{Manual Inspection:}  Reviewed flagged anomalies to confirm their unusual characteristics.
+			\end{itemize}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Data Visualization}
 		
 		\begin{itemize}
-			\item \textbf{Loading the Pre-trained AI Model}
-			\begin{itemize}
-				\item Obtain a pre-trained AI model optimized for object detection.
-				\item Ensure the model is compatible with the resources of the Portenta H7.
-			\end{itemize}
-			\vspace{0.3cm}
-			
-			\item \textbf{Optimizing the Model for Embedded Deployment}
-			\begin{itemize}
-				\item Convert the model to a format that can be efficiently run on the microcontroller.
-				\item Use frameworks like TensorFlow Lite for Microcontrollers.
-				\item Perform quantization to reduce the model size and inference time.
-			\end{itemize}
-			\vspace{0.3cm}
-			
-			\item \textbf{Deploying the Model on the Portenta H7}
-			\begin{itemize}
-				\item Load the converted model onto the Portenta H7's flash memory.
-				\item Utilize Arduino libraries to interface with the model.
-			\end{itemize}
-			\vspace{0.3cm}
-			
-			\item \textbf{Real-time Inference on the Portenta H7}
-			\begin{itemize}
-				\item Capture images from the Vision Shield's camera.
-				\item Pass the images to the AI model for inference.
-				\item Interpret the output to identify and classify objects in real-time.
-			\end{itemize}
+			\item Figure.5 visualizing anomalies identified via Path and TraceId, showing clustering and deviations from normal access patterns.
+			\item FIgure.6 shows analysis of anomalies detected based on User-Agent behaviors
 		\end{itemize}
-	\end{frame}
+		
+		\begin{minipage}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/PowerBI_1.png}
+			\captionof{figure}{5.Bar Chart}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.48\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{images/PowerBI_2.png}
+			\captionof{figure}{6.Bar Chart}
+		\end{minipage}
+		
+		
+		.\end{frame}
 	
 	
-	\section{Positioning Analytics in XYZ}
-	\begin{frame}
-		\frametitle{Positioning Analytics in XYZ}
-		\begin{itemize}
-			\item \textbf{Capturing Live Video Frames:}
-			\begin{itemize}
-				\item The Vision Shield's camera captures live video frames.
-				\item Frames are continuously fed into the Portenta H7 for processing.
-			\end{itemize}
-			\item \textbf{Processing Frames in Real-time:}
-			\begin{itemize}
-				\item Each frame is processed by the AI model deployed on the Portenta H7.
-				\item The model performs object detection, identifying and classifying objects in the frame.
-			\end{itemize}
-			\item \textbf{Annotating Detected Objects:}
-			\begin{itemize}
-				\item Detected objects are annotated directly on the video feed.
-				\item Bounding boxes and labels are overlaid to highlight detected objects.
-			\end{itemize}
-			\item \textbf{Displaying Output:}
-			\begin{itemize}
-				\item The annotated video feed is displayed on the Vision Shield's built-in display.
-				\item Real-time feedback provides immediate visual confirmation of detected objects.
-			\end{itemize}
-		\end{itemize}
-	\end{frame}
 	
-	\section{Knowledge Discovery in Database (KDD) Process}
-	\begin{frame}
-		\frametitle{Knowledge Discovery in Database (KDD) Process}
-		\begin{itemize}
-			\item Live video feed from the Vision Shield's camera module.
-			\item Real-time annotation of detected objects on the video feed.
-			\item Accurate and efficient object detection and classification.
-			\item Instant visual feedback displayed on the Vision Shield's built-in display.
-			\item Potential for further customization and integration into larger systems.
-		\end{itemize}
-	\end{frame}
+	
 	
 	
 	\section{Conclusion and Future Scope}
 	\begin{frame}
 		\frametitle{Conclusion and Future Scope}
 		
-		Real-time object detection with the Arduino Portenta H7 and Vision Shield has numerous applications across various industries:
+		\begin{block}{Conclusion:}
+			\begin{itemize}
+				\item XXX
+			\end{itemize}
+		\end{block}
 		
-		\begin{itemize}
-			\item \textbf{Surveillance and Security Systems:} Enhance security measures by detecting and identifying intruders or suspicious objects in real-time.
-			\item \textbf{Industrial Automation and Quality Control:} Ensure product quality by identifying defects or anomalies on manufacturing lines.
-			\item \textbf{Robotics and Autonomous Navigation:} Enable robots and autonomous vehicles to perceive and react to their surroundings, enhancing safety and efficiency.
-			\item \textbf{Smart Home Devices and IoT Applications:} Create intelligent devices capable of recognizing and responding to human activities or environmental changes.
-		\end{itemize}
-		
-		Real-time object detection provides valuable insights and automation capabilities in diverse fields, making it a versatile and powerful technology for modern applications.
+		\begin{block}{Future Scope:}
+			\begin{itemize}
+				\item XXX
+			\end{itemize}
+		\end{block}
 		
 	\end{frame}
 	
@@ -236,16 +364,13 @@
 		
 		
 		\begin{itemize}
-			\item The project showcases the potential of AI-enabled embedded systems for real-time object detection.
-			\item By leveraging the computational power of the Arduino Portenta H7 and the image processing capabilities of the Vision Shield, complex tasks like object detection can be performed efficiently and accurately in real-time.
-			\item The project opens up possibilities for a wide range of applications in industries such as surveillance, industrial automation, robotics, and IoT, where real-time object detection is crucial for decision-making and automation.
+			\item XXX
 		\end{itemize}
 		
 	\end{frame}
 	
-
 	
-\include{Slides/end}
 	
-	\end{document}
+	\include{Slides/end}
 	
+\end{document}
