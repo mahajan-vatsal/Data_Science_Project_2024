@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  8 JAN 2025 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  8 JAN 2025 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,9 +907,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-202518903.tex)...disabled (restricted).
+runsystem(touch w18-test-2025181053.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202518903.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2025181053.tex)...disabled (restricted).
 
 runsystem(rm -f "Presentation_ThreatandWeaknessAnalysis.gnuploterrors")...disab
 led (restricted).
@@ -1691,9 +1691,9 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 133--133
 File: images/RAMI_IIRA.png Graphic file (type png)
 <use images/RAMI_IIRA.png>
 Package pdftex.def Info: images/RAMI_IIRA.png  used on input line 133.
-(pdftex.def)             Requested size: 153.64493pt x 80.69118pt.
+(pdftex.def)             Requested size: 184.3758pt x 96.83194pt.
 
-Overfull \vbox (1.56245pt too high) detected at line 133
+Overfull \vbox (17.70322pt too high) detected at line 133
  []
 
 File: img/hintergrund2.png Graphic file (type png)
@@ -1923,20 +1923,20 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
  <./images/PowerBI_1.png> <./images/PowerBI_2.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 363.
+Package pdftex.def Info: img/technik.jpg  used on input line 364.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 363--363
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 364--364
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 363.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 364.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 363.
+Package pdftex.def Info: img/technik.jpg  used on input line 364.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -2000,7 +2000,7 @@ s.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  39672 strings out of 474104
- 816781 string characters out of 5747502
+ 816783 string characters out of 5747502
  1944496 words of memory out of 5000000
  61288 multiletter control sequences out of 15000+600000
  564621 words of font info for 59 fonts, out of 8000000 for 9000
@@ -2012,7 +2012,7 @@ live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2024
 t/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2024/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmssi10.pfb>
-Output written on Presentation_ThreatandWeaknessAnalysis.pdf (15 pages, 3096023
+Output written on Presentation_ThreatandWeaknessAnalysis.pdf (15 pages, 3096057
  bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
