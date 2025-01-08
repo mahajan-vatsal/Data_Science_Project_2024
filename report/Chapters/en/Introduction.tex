@@ -36,17 +36,17 @@ The focus of this analysis is to identify and mitigate potential threats and wea
 	\item Reduced data breaches by identifying and blocking unauthorized requests.
 \end{itemize}
 
-\chapter{Positioning Your Analytics}
+\chapter{Positioning our Analytics}
 
-\section{Existing Solutions}
+%\section{Existing Solutions}
 
-The analytics developed for Orgadata’s SimplyTag system are positioned uniquely when compared to conventional tools. Traditional solutions like Intrusion Detection Systems (IDS) \cite{IEEE:2020} and log monitoring platforms (e.g., Splunk, ELK Stack) \cite{IEEE:2022} offer general frameworks for detecting anomalies and breaches. However, they often lack customization tailored to specific applications. Orgadata’s approach is distinguished by its precise utilization of trace IDs, HTTP status codes, user agent patterns, and paths to monitor requests in real-time.
+%The analytics developed for Orgadata’s SimplyTag system are positioned uniquely when compared to conventional tools. Traditional solutions like Intrusion Detection Systems (IDS) \cite{IEEE:2020} and log monitoring platforms (e.g., Splunk, ELK Stack) \cite{IEEE:2022} offer general frameworks for detecting anomalies and breaches. However, they often lack customization tailored to specific applications. Orgadata’s approach is distinguished by its precise utilization of trace IDs, HTTP status codes, user agent patterns, and paths to monitor requests in real-time.
 
 \section{State-of-the-Art}
 
 \subsection{Overview of Current Solutions}
 \begin{itemize}
-	\item Existing tools such as Splunk, ELK Stack and Intrusion Detection Systems (IDS) provide robust frameworks for monitoring and analyzing security events. These solutions excel at processing vast amounts of log data and identifying potential threats in general scenarios.
+	\item Existing tools such as Splunk, ELK Stack \cite{IEEE:2022} and Intrusion Detection Systems (IDS) \cite{IEEE:2020} provide robust frameworks for monitoring and analyzing security events. These solutions excel at processing vast amounts of log data and identifying potential threats in general scenarios.
 	\item Security platforms often use rule-based or heuristic approaches for anomaly detection but may struggle with domain-specific customizations.
 \end{itemize}
 
@@ -66,20 +66,16 @@ The SimplyTag analytics focus on filling these gaps by leveraging domain-specifi
 	\item Integration of user agent analysis ensures that illegitimate devices or configurations can be quickly identified and addressed.
 \end{enumerate}
 
-\subsection{Emerging Trends}
-\begin{itemize}
-	\item AI-driven anomaly detection is gaining traction, enabling systems to learn and adapt to evolving threats.
-	\item Zero-trust architecture and real-time monitoring advancements align with SimplyTag’s goals of enhancing data security and operational reliability.
-\end{itemize}
+% Suppress page break for the next chapter
+\begingroup
+\let\cleardoublepage\relax
+\let\clearpage\relax
+\chapter{Knowledge Domain / Application Sector}
+\endgroup
 
-This focused methodology bridges gaps left by traditional systems, providing a solution that is both targeted and scalable for SimplyTag’s operational needs.
+\section{Knowledge domain}
 
-\newpage
-\chapter{Application Sector}
-
-\section{Application Sector}
-
-This project belongs to the Industry domain, specifically the Construction Software sector, with a focus on::
+The domain of our analytics is centered around the construction software industry for digital tools and software solutions. By processing system log data from Orgadata's SimplyTag platform, our analytics provide critical insights into system vulnerabilities and anomalies. These insights are invaluable to various functional units, such as IT security teams and system administrators, within the construction software sector, with a focus on:
 
 \begin{itemize}
 	\item \textbf{Threat Detection:} Monitoring system logs to identify malicious activity and unauthorized data access.
@@ -87,9 +83,9 @@ This project belongs to the Industry domain, specifically the Construction Softw
 	\item \textbf{Operational Security Optimization:} Enabling proactive measures to address potential weaknesses and improve system resilience.
 \end{itemize}
 
-By contributing to the broader domain of secure digital construction tools, the project aligns with emerging trends like data-driven operational efficiency and advanced cybersecurity measures tailored for industry-specific applications.
+By contributing to the broader domain of secure digital tools and software solutions, the project aligns with emerging trends like data-driven operational efficiency and advanced cybersecurity measures tailored for industry-specific applications.
 
-\chapter{Purpose of Your Analytics}
+\chapter{Purpose of our Analytics}
 
 \section{What It Does}
 
@@ -102,8 +98,43 @@ This project belongs to the Industry domain, specifically the Construction Softw
 	\item \textbf{Optimization:} Enhances system performance by ensuring secure operations without disrupting user experience. This involves balancing security measures with system usability, especially in high-demand environments like construction software solutions.
 \end{itemize}
 
-\chapter{Major Requirements}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{Images/RAMI_IIRA.png}
+		\caption{Mapping Functionalities in RAMI 4.0 and IIRA}
+		\label{RAMI_IIRA}
+	\end{center}
+\end{figure}
 
+\chapter{Positioning Within Standard Reference Architectures}
+
+This solution aligns with several modern frameworks and architectures:
+
+\begin{itemize}
+	\item \textbf{Smart-City:} The analytics align with secure data handling standards in urban development contexts, ensuring efficient and secure information exchange in large-scale urban projects..
+	\item \textbf{IIoT/IIRA:} The approach supports reliability and security within industrial systems, adhering to frameworks like the Industrial Internet Reference Architecture (IIRA) for seamless integration and operational consistency, refer figure ~\ref{RAMI_IIRA}.
+	\item \textbf{RAMI 4.0:} Within the Reference Architecture Model for Industry 4.0 (RAMI 4.0), the analytics are positioned in the \SHELL{"Information Layer"}, where data processing, analysis, and anomaly detection occur. It also contributes to the "Functional Layer" by enabling actionable insights and decision-making based on real-time monitoring, refer figure ~\ref{RAMI_IIRA}.
+	\item \textbf{ISO Standards Compliance:} The analytics are developed in alignment with international standards such as ISO 27001, ensuring robust security practices and data protection.
+	\item \textbf{Cybersecurity Frameworks:} Incorporating principles from the NIST Cybersecurity Framework, the analytics bolster detection, prevention, and response mechanisms for threats.
+\end{itemize}
+
+These alignments ensure that SimplyTag analytics not only address Orgadata’s specific needs but also conform to global benchmarks, making them scalable and applicable across various industrial and urban contexts.
+
+\chapter{Connected Infrastructure Components}
+
+\section{Infrastructure Integration}
+
+\begin{itemize}
+	\item \textbf{SimplyTag API Backend:} Serves as the primary source for log data. It collects and provides detailed information about HTTP requests, including trace IDs and status codes, for analysis.
+	\item \textbf{Orgadata’s Logikal System:}Acts as the operational backbone for data-driven decision-making. This system contextualizes log data by linking it with construction-related project details, enabling precise threat detection.
+	\item \textbf{External Threat Detection Tools:} To enhance the analytics, integration with external tools such as SIEM platforms or advanced machine learning models for threat prediction can be implemented. These tools offer additional layers of analysis and improve overall system resilience.
+	\item \textbf{Cloud Infrastructure:} SimplyTag leverages cloud infrastructure to ensure scalability and reliability. The cloud platform supports large-scale log storage and computational power required for real-time analytics.
+	\item \textbf{Mobile and Web Interfaces:} The analytics extend to user-facing interfaces like the SimplyTag mobile and web apps, ensuring seamless user interaction while maintaining robust security measures.
+\end{itemize}
+
+By connecting these components, the analytics create a comprehensive security ecosystem that is robust, scalable, and aligned with Orgadata’s operational goals.
+
+\chapter{Major Requirements}
 \section{Requirements}
 
 \begin{itemize}

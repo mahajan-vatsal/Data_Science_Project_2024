@@ -195,8 +195,7 @@ Isolation Forest is an ensemble learning technique designed to detect outliers b
 Requests identified as anomalies were flagged with a value of -1.
 
 \section{Validation/Verification}
-Validation and verification are critical steps to ensure the reliability and accuracy of the data mining and anomaly detection process. This section outlines the methods used to validate the models and verify the results.
-
+Validation and verification are critical steps to ensure the reliability and accuracy of the data mining and anomaly detection process.
 \subsection{DBSCAN Validation}
 The results of the DBSCAN clustering were validated as follows:
 \begin{itemize}
@@ -210,6 +209,8 @@ The Isolation Forest model's performance was validated using the following metho
 	\item \textbf{Anomaly Score Distribution}: The distribution of anomaly scores was evaluated to differentiate anomalies from regular requests.
 	\item \textbf{Manual Inspection}: A subset of flagged anomalies was reviewed to confirm their unusual characteristics.
 \end{itemize}
+%Also, validated the suspicious log agents results with respect to the endpoints listed on Swagger UI for legitimate endpoints.
+
 
 \section{Data Visualization}
 
@@ -237,7 +238,7 @@ The Isolation Forest model's performance was validated using the following metho
 	\end{center}
 \end{figure}
 
-The final step in the KDD process is representing the acquired knowledge in an understandable form and using it to make decisions. To effectively demonstrate and view the output of our data mining techniques we used Power Bi tool where we created a dashboard for approach 1, approach 2 and approach 3 as shown in the figure ~\ref{PowerBI1}, ~\ref{PowerBI2} and ~\ref{PowerBI3} respectively, for visualizing the Paths and the User-agents which we identified as suspicious threat. Power BI's dashboards and reports are excellent for this purpose, as they can effectively communicate insights to all levels of an organization.
+The final step in the KDD process is to represent knowledge in an understandable form for decision-making. We used Power BI to create dashboards for Approach 1, Approach 2 and Approach 3 (Figures ~\ref{PowerBI1}, ~\ref{PowerBI2}, ~\ref{PowerBI3}) to visualize suspicious Paths and User-agents. Power BI's dashboards and reports are excellent for this purpose, as they can effectively communicate insights to all levels of an organization.
 
 \section{Conclusion}
-This project successfully utilized data mining and anomaly detection techniques to uncover irregularities within system log files. By utilizing advanced machine learning algorithms such as DBSCAN and Isolation Forest, we were able to cluster request patterns and detect anomalies with precision, resulting in a reliable and efficient detection process. The implementation followed the Knowledge Discovery in Databases (KDD) process, ensuring a systematic approach to data selection, preparation,  transformation and analysis, which enhanced the accuracy and relevance of the findings.
+This project successfully utilized data mining and anomaly detection techniques to uncover irregularities within system log files. By utilizing advanced machine learning algorithms such as DBSCAN and Isolation Forest, we were able to cluster request patterns and detect anomalies with precision, resulting in a reliable and efficient detection process followed by the implementation of  Knowledge Discovery in Databases (KDD) process.

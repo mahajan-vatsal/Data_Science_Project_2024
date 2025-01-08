@@ -1,0 +1,89 @@
+\doxysection{Threatand\+Weakness\+Analysis.\+py File Reference}
+\hypertarget{_threatand_weakness_analysis_8py}{}\label{_threatand_weakness_analysis_8py}\index{ThreatandWeaknessAnalysis.py@{ThreatandWeaknessAnalysis.py}}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespace_threatand_weakness_analysis}{Threatand\+Weakness\+Analysis}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a6dac06997382a6c183de471197f90dc3}{Threatand\+Weakness\+Analysis.\+parse\+\_\+json\+\_\+safe}} (json\+\_\+str)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ae96b6f2fea44034af4b4446b522e1dac}{Threatand\+Weakness\+Analysis.\+extract\+\_\+trace\+\_\+id}} (scope)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ad5a77913020b103656e852cc991c9d3e}{Threatand\+Weakness\+Analysis.\+extract\+\_\+path\+\_\+features}} (path)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+str \mbox{\hyperlink{namespace_threatand_weakness_analysis_a414743585c65caf4daa3d6462c34228f}{Threatand\+Weakness\+Analysis.\+folder\+\_\+path}} = "{}/Users/vatsal/Desktop/Simply\+Tag"{}
+\item 
+str \mbox{\hyperlink{namespace_threatand_weakness_analysis_ad1dfabde050a44988fe5d0eca7fc7a89}{Threatand\+Weakness\+Analysis.\+output\+\_\+csv\+\_\+path}} = "{}/Users/vatsal/Desktop/Simply\+Tag/merged\+\_\+logs.\+csv"{}
+\item 
+list \mbox{\hyperlink{namespace_threatand_weakness_analysis_a524d35f76e298be60fab3fac512c0cf5}{Threatand\+Weakness\+Analysis.\+log\+\_\+data}} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a43896264f32fe70692eebca224b0b7dc}{Threatand\+Weakness\+Analysis.\+log\+\_\+file\+\_\+path}} = os.\+path.\+join(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a414743585c65caf4daa3d6462c34228f}{folder\+\_\+path}}, file\+\_\+name)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ab7e929ebadcb737c868fbdce1b179538}{Threatand\+Weakness\+Analysis.\+json\+\_\+start}} = line.\+find(\textquotesingle{}\{\textquotesingle{})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a786cc2362e781e1ebd27c0c57ed19e14}{Threatand\+Weakness\+Analysis.\+json\+\_\+data}} = line\mbox{[}json\+\_\+start\+:\mbox{]}.strip()
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a4382951422020818dc71ba9fac5760a6}{Threatand\+Weakness\+Analysis.\+df}} = pd.\+Data\+Frame(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a524d35f76e298be60fab3fac512c0cf5}{log\+\_\+data}})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_abb6a0c432c80d03026444949b35e0ba9}{Threatand\+Weakness\+Analysis.\+index}}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a6c6f587c65ad1bc8b59de637cc1fc5e5}{Threatand\+Weakness\+Analysis.\+df\+\_\+selected}} = pd.\+Data\+Frame()
+\item 
+str \mbox{\hyperlink{namespace_threatand_weakness_analysis_a1a2e56719355f9d688359c65626ec4d3}{Threatand\+Weakness\+Analysis.\+file\+\_\+path}} = \textquotesingle{}/Users/vatsal/Desktop/transformed\+\_\+data.\+csv\textquotesingle{}
+\item 
+list \mbox{\hyperlink{namespace_threatand_weakness_analysis_a2fc2814c5c136e370686596425bef234}{Threatand\+Weakness\+Analysis.\+chunk\+\_\+results}} = \mbox{[}$\,$\mbox{]}
+\item 
+int \mbox{\hyperlink{namespace_threatand_weakness_analysis_afbad8292b8d161cb46ec678ff434bc37}{Threatand\+Weakness\+Analysis.\+chunk\+\_\+size}} = 10000
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a9befd22ef21817ca373982ec3e38c269}{Threatand\+Weakness\+Analysis.\+chunks}} = pd.\+read\+\_\+csv(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a1a2e56719355f9d688359c65626ec4d3}{file\+\_\+path}}, chunksize=\mbox{\hyperlink{namespace_threatand_weakness_analysis_afbad8292b8d161cb46ec678ff434bc37}{chunk\+\_\+size}})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ab0d6400826092d400402711f7988bbf3}{Threatand\+Weakness\+Analysis.\+inplace}}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ad737011398a2a12768b976bfc32f42ab}{Threatand\+Weakness\+Analysis.\+path\+\_\+features}} = chunk\mbox{[}\textquotesingle{}Path\textquotesingle{}\mbox{]}.apply(\mbox{\hyperlink{namespace_threatand_weakness_analysis_ad5a77913020b103656e852cc991c9d3e}{extract\+\_\+path\+\_\+features}})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a171ba79937c03a4e92747eb7dcdffea0}{Threatand\+Weakness\+Analysis.\+X}}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_aeeb9afda608f9d8401556333056cbd62}{Threatand\+Weakness\+Analysis.\+scaler}} = Standard\+Scaler()
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ad431bf8f2c40a293132fba595d702f22}{Threatand\+Weakness\+Analysis.\+X\+\_\+scaled}} = scaler.\+fit\+\_\+transform(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a171ba79937c03a4e92747eb7dcdffea0}{X}})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a96b0f244301d4eaffc98db1e309d1546}{Threatand\+Weakness\+Analysis.\+iso\+\_\+forest}} = Isolation\+Forest(contamination=0.\+05, random\+\_\+state=42)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ab8a5a5b016e9f8f9ca09ee5b42695102}{Threatand\+Weakness\+Analysis.\+dbscan}} = DBSCAN(eps=0.\+5, min\+\_\+samples=5)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_afc9b18e45ae9f8a8114f216039eb08c2}{Threatand\+Weakness\+Analysis.\+chunk\+\_\+anomalies}} = chunk\mbox{[}chunk\mbox{[}\textquotesingle{}is\+\_\+anomaly\+\_\+combined\textquotesingle{}\mbox{]}\mbox{]}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ae29d09a8279b481f398c6cddda81145a}{Threatand\+Weakness\+Analysis.\+anomalies}} = pd.\+concat(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a2fc2814c5c136e370686596425bef234}{chunk\+\_\+results}}, ignore\+\_\+index=True)
+\item 
+str \mbox{\hyperlink{namespace_threatand_weakness_analysis_a78f01b9c9f6899124ea592dbf62f3554}{Threatand\+Weakness\+Analysis.\+output\+\_\+file}} = "{}anomalies\+\_\+detected\+\_\+approach1.\+csv"{}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a5e60295e567339623715a9d33c7d3b0b}{Threatand\+Weakness\+Analysis.\+data}} = pd.\+read\+\_\+csv(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a1a2e56719355f9d688359c65626ec4d3}{file\+\_\+path}})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ab6bf8ef823491b99dd512e87ef5dc859}{Threatand\+Weakness\+Analysis.\+vectorizer}} = Tfidf\+Vectorizer(max\+\_\+features=500)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_af8ede142265a1825bae1ba02d1458b1a}{Threatand\+Weakness\+Analysis.\+tfidf\+\_\+matrix}} = vectorizer.\+fit\+\_\+transform(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a5e60295e567339623715a9d33c7d3b0b}{data}}\mbox{[}\textquotesingle{}Path\textquotesingle{}\mbox{]}).toarray()
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_afb82bf16d003b4d8cfbd64229eda6f03}{Threatand\+Weakness\+Analysis.\+numeric\+\_\+features}} = trace\+\_\+features\mbox{[}feature\+\_\+cols\mbox{]}.values
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_aebb1ab815eb310f159eae08ca3cbdc7f}{Threatand\+Weakness\+Analysis.\+combined\+\_\+features}} = np.\+hstack(\mbox{[}\mbox{\hyperlink{namespace_threatand_weakness_analysis_afb82bf16d003b4d8cfbd64229eda6f03}{numeric\+\_\+features}}, \mbox{\hyperlink{namespace_threatand_weakness_analysis_af8ede142265a1825bae1ba02d1458b1a}{tfidf\+\_\+matrix}}\mbox{]})
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a6fdeb45180b500398b9353038d18e605}{Threatand\+Weakness\+Analysis.\+dbscan\+\_\+model}} = DBSCAN(eps=0.\+5, min\+\_\+samples=5)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a91fa29090528455a1cbaffbf2c176185}{Threatand\+Weakness\+Analysis.\+anomalies\+\_\+dbscan}} = trace\+\_\+features\mbox{[}trace\+\_\+features\mbox{[}\textquotesingle{}DBSCAN\+\_\+\+Cluster\textquotesingle{}\mbox{]} == -\/1\mbox{]}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a241f557864b85f426d69da06c0c02fe9}{Threatand\+Weakness\+Analysis.\+model}} = Isolation\+Forest(n\+\_\+estimators=100, contamination=0.\+01, random\+\_\+state=42)
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_a84405ff77b381aba4dbc0191dad746e7}{Threatand\+Weakness\+Analysis.\+combined\+\_\+anomalies}}
+\item 
+list \mbox{\hyperlink{namespace_threatand_weakness_analysis_a8419b15ccde061135eace94199bfc381}{Threatand\+Weakness\+Analysis.\+suspicious\+\_\+user\+\_\+agents}}
+\item 
+\mbox{\hyperlink{namespace_threatand_weakness_analysis_ae93ab7b27c9b54faf17466bf68a69f25}{Threatand\+Weakness\+Analysis.\+filtered\+\_\+data}} = \mbox{\hyperlink{namespace_threatand_weakness_analysis_a5e60295e567339623715a9d33c7d3b0b}{data}}\mbox{[}\mbox{\hyperlink{namespace_threatand_weakness_analysis_a5e60295e567339623715a9d33c7d3b0b}{data}}\mbox{[}\textquotesingle{}User Agent\textquotesingle{}\mbox{]}.isin(\mbox{\hyperlink{namespace_threatand_weakness_analysis_a8419b15ccde061135eace94199bfc381}{suspicious\+\_\+user\+\_\+agents}})\mbox{]}
+\item 
+list \mbox{\hyperlink{namespace_threatand_weakness_analysis_a9fe8ef0c5d3a94d43e47ce8f874db468}{Threatand\+Weakness\+Analysis.\+images}} = \mbox{[}"{}/Users/vatsal/Documents/Git\+Hub/Data\+\_\+\+Science\+\_\+\+Project\+\_\+2024/code/Power\+BI1.\+png"{}, "{}/Users/vatsal/Documents/Git\+Hub/Data\+\_\+\+Science\+\_\+\+Project\+\_\+2024/code/Power\+BI2.\+png"{}, "{}/Users/vatsal/Documents/Git\+Hub/Data\+\_\+\+Science\+\_\+\+Project\+\_\+2024/code/Power\+BI3.\+png"{}\mbox{]}
+\end{DoxyCompactItemize}

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  7 JAN 2025 16:18
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.12)  8 JAN 2025 11:34
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,11 +684,19 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
 )
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+>>>>>>> Stashed changes
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen294
 \captionmargin=\dimen295
@@ -696,18 +708,28 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen301
 Package caption Info: beamer document class detected.
 
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
 \c@caption@flags=\count338
 \c@continuedfloat=\count339
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count337
+\c@continuedfloat=\count338
+>>>>>>> Stashed changes
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+<<<<<<< Updated upstream
 (hyperref)                removing `\\' on input line 15.
 
 
@@ -717,22 +739,44 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 22.
+=======
+(hyperref)                removing `\\' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 17.
+
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 24.
+>>>>>>> Stashed changes
 
 (./slides/header.tex (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks46
 \inpenc@posthook=\toks47
 )
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/04/20 v24.4 The Babel package
 \babel@savecnt=\count340
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count339
+>>>>>>> Stashed changes
 \U@D=\dimen302
 \l@unhyphenated=\language89
 
 (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
+<<<<<<< Updated upstream
 LaTeX Info: Redefining \textlatin on input line 3930.
 \bbl@dirlevel=\count341
+=======
+LaTeX Info: Redefining \textlatin on input line 3919.
+\bbl@dirlevel=\count340
+>>>>>>> Stashed changes
 
 (c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -762,7 +806,11 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 )
 \everycr=\toks49
 \minrowclearance=\skip67
+<<<<<<< Updated upstream
 \rownum=\count342
+=======
+\rownum=\count341
+>>>>>>> Stashed changes
 )
 (c:/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
@@ -772,14 +820,20 @@ Package: pgfpages 2011/01/05 ver 0.02
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+<<<<<<< Updated upstream
 \calc@Acount=\count343
 \calc@Bcount=\count344
+=======
+\calc@Acount=\count342
+\calc@Bcount=\count343
+>>>>>>> Stashed changes
 \calc@Adimen=\dimen305
 \calc@Bdimen=\dimen306
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
+<<<<<<< Updated upstream
 \calc@Ccount=\count345
 \calc@Cskip=\skip70
 )
@@ -789,6 +843,17 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \pgf@currentshipout=\count349
 \pgf@cpn=\count350
 \pgf@shipoutnextto=\count351
+=======
+\calc@Ccount=\count344
+\calc@Cskip=\skip70
+)
+\pgf@logicalpages=\count345
+\pgf@firstshipout=\count346
+\pgf@lastshipout=\count347
+\pgf@currentshipout=\count348
+\pgf@cpn=\count349
+\pgf@shipoutnextto=\count350
+>>>>>>> Stashed changes
 \pgfphysicalheight=\dimen307
 \pgfphysicalwidth=\dimen308
 \pgfpages@shipoutbox=\box78
@@ -827,7 +892,11 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+<<<<<<< Updated upstream
 \pgf@plot@mark@count=\count352
+=======
+\pgf@plot@mark@count=\count351
+>>>>>>> Stashed changes
 \pgfplotmarksize=\dimen313
 )
 \tikz@lastx=\dimen314
@@ -842,18 +911,33 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box81
 \tikz@tempbox=\box82
 \tikz@tempbox@bg=\box83
+<<<<<<< Updated upstream
 \tikztreelevel=\count353
 \tikznumberofchildren=\count354
 \tikznumberofcurrentchild=\count355
 \tikz@fig@count=\count356
+=======
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
+>>>>>>> Stashed changes
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+<<<<<<< Updated upstream
 \pgfmatrixcurrentrow=\count357
 \pgfmatrixcurrentcolumn=\count358
 \pgf@matrix@numberofcolumns=\count359
 )
 \tikz@expandcount=\count360
+=======
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
+)
+\tikz@expandcount=\count359
+>>>>>>> Stashed changes
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -867,16 +951,27 @@ File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
 brarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+>>>>>>> Stashed changes
 \pgfdecoratedcompleteddistance=\dimen322
 \pgfdecoratedremainingdistance=\dimen323
 \pgfdecoratedinputsegmentcompleteddistance=\dimen324
 \pgfdecoratedinputsegmentremainingdistance=\dimen325
 \pgf@decorate@distancetomove=\dimen326
+<<<<<<< Updated upstream
 \pgf@decorate@repeatstate=\count361
+=======
+\pgf@decorate@repeatstate=\count360
+>>>>>>> Stashed changes
 \pgfdecorationsegmentamplitude=\dimen327
 \pgfdecorationsegmentlength=\dimen328
 )
@@ -893,9 +988,15 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks53
 \verbatim@in@stream=\read4
 )
+<<<<<<< Updated upstream
 \tab@position=\count362
 \tab@size=\count363
 \listing@line=\count364
+=======
+\tab@position=\count361
+\tab@size=\count362
+\listing@line=\count363
+>>>>>>> Stashed changes
 )
 (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
@@ -907,9 +1008,15 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
+<<<<<<< Updated upstream
 runsystem(touch w18-test-202517978.tex)...disabled (restricted).
 
 runsystem(rm -f w18-test-202517978.tex)...disabled (restricted).
+=======
+runsystem(touch w18-test-202518694.tex)...disabled (restricted).
+
+runsystem(rm -f w18-test-202518694.tex)...disabled (restricted).
+>>>>>>> Stashed changes
 
 runsystem(rm -f "Presentation_ThreatandWeaknessAnalysis.gnuploterrors")...disab
 led (restricted).
@@ -919,7 +1026,11 @@ led (restricted).
 Package gnuplottex Warning: Shell escape not enabled.
 (gnuplottex)                You'll need to convert the graphs yourself.
 
+<<<<<<< Updated upstream
 \c@fignum=\count365
+=======
+\c@fignum=\count364
+>>>>>>> Stashed changes
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarycalc.code.tex
@@ -1000,6 +1111,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen329
+<<<<<<< Updated upstream
 )) (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.markings.code.tex
@@ -1007,6 +1119,15 @@ brarydecorations.markings.code.tex
 orations.markings.code.tex))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypatterns.code.tex
+=======
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.markings.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+>>>>>>> Stashed changes
 File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.t
@@ -1022,11 +1143,16 @@ Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
+<<<<<<< Updated upstream
 \lrq@indent=\count366
+=======
+\lrq@indent=\count365
+>>>>>>> Stashed changes
 
 (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
+<<<<<<< Updated upstream
 \c@tabx@nest=\count367
 \c@listtotal=\count368
 \c@listcount=\count369
@@ -1070,6 +1196,51 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorderinternal@0=\count407
 \blx@entrysetcounter=\count408
 \blx@biblioinstance=\count409
+=======
+\c@tabx@nest=\count366
+\c@listtotal=\count367
+\c@listcount=\count368
+\c@liststart=\count369
+\c@liststop=\count370
+\c@citecount=\count371
+\c@citetotal=\count372
+\c@multicitecount=\count373
+\c@multicitetotal=\count374
+\c@instcount=\count375
+\c@maxnames=\count376
+\c@minnames=\count377
+\c@maxitems=\count378
+\c@minitems=\count379
+\c@citecounter=\count380
+\c@maxcitecounter=\count381
+\c@savedcitecounter=\count382
+\c@uniquelist=\count383
+\c@uniquename=\count384
+\c@refsection=\count385
+\c@refsegment=\count386
+\c@maxextratitle=\count387
+\c@maxextratitleyear=\count388
+\c@maxextraname=\count389
+\c@maxextradate=\count390
+\c@maxextraalpha=\count391
+\c@abbrvpenalty=\count392
+\c@highnamepenalty=\count393
+\c@lownamepenalty=\count394
+\c@maxparens=\count395
+\c@parenlevel=\count396
+\blx@tempcnta=\count397
+\blx@tempcntb=\count398
+\blx@tempcntc=\count399
+\c@blx@maxsection=\count400
+\blx@maxsegment@0=\count401
+\blx@notetype=\count402
+\blx@parenlevel@text=\count403
+\blx@parenlevel@foot=\count404
+\blx@sectionciteorder@0=\count405
+\blx@sectionciteorderinternal@0=\count406
+\blx@entrysetcounter=\count407
+\blx@biblioinstance=\count408
+>>>>>>> Stashed changes
 \labelnumberwidth=\skip71
 \labelalphawidth=\skip72
 \biblabelsep=\skip73
@@ -1081,9 +1252,15 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write6
 \blx@langwohyphens=\language90
+<<<<<<< Updated upstream
 \c@mincomprange=\count410
 \c@maxcomprange=\count411
 \c@mincompwidth=\count412
+=======
+\c@mincomprange=\count409
+\c@maxcomprange=\count410
+\c@mincompwidth=\count411
+>>>>>>> Stashed changes
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1094,6 +1271,7 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+<<<<<<< Updated upstream
 \c@afterword=\count413
 \c@savedafterword=\count414
 \c@annotator=\count415
@@ -1162,6 +1340,76 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count478
 \c@pageref=\count479
 \c@savedpageref=\count480
+=======
+\c@afterword=\count412
+\c@savedafterword=\count413
+\c@annotator=\count414
+\c@savedannotator=\count415
+\c@author=\count416
+\c@savedauthor=\count417
+\c@bookauthor=\count418
+\c@savedbookauthor=\count419
+\c@commentator=\count420
+\c@savedcommentator=\count421
+\c@editor=\count422
+\c@savededitor=\count423
+\c@editora=\count424
+\c@savededitora=\count425
+\c@editorb=\count426
+\c@savededitorb=\count427
+\c@editorc=\count428
+\c@savededitorc=\count429
+\c@foreword=\count430
+\c@savedforeword=\count431
+\c@holder=\count432
+\c@savedholder=\count433
+\c@introduction=\count434
+\c@savedintroduction=\count435
+\c@namea=\count436
+\c@savednamea=\count437
+\c@nameb=\count438
+\c@savednameb=\count439
+\c@namec=\count440
+\c@savednamec=\count441
+\c@translator=\count442
+\c@savedtranslator=\count443
+\c@shortauthor=\count444
+\c@savedshortauthor=\count445
+\c@shorteditor=\count446
+\c@savedshorteditor=\count447
+\c@labelname=\count448
+\c@savedlabelname=\count449
+\c@institution=\count450
+\c@savedinstitution=\count451
+\c@lista=\count452
+\c@savedlista=\count453
+\c@listb=\count454
+\c@savedlistb=\count455
+\c@listc=\count456
+\c@savedlistc=\count457
+\c@listd=\count458
+\c@savedlistd=\count459
+\c@liste=\count460
+\c@savedliste=\count461
+\c@listf=\count462
+\c@savedlistf=\count463
+\c@location=\count464
+\c@savedlocation=\count465
+\c@organization=\count466
+\c@savedorganization=\count467
+\c@origlocation=\count468
+\c@savedoriglocation=\count469
+\c@origpublisher=\count470
+\c@savedorigpublisher=\count471
+\c@publisher=\count472
+\c@savedpublisher=\count473
+\c@language=\count474
+\c@savedlanguage=\count475
+\c@origlanguage=\count476
+\c@savedoriglanguage=\count477
+\c@pageref=\count478
+\c@savedpageref=\count479
+>>>>>>> Stashed changes
 \shorthandwidth=\skip79
 \shortjournalwidth=\skip80
 \shortserieswidth=\skip81
@@ -1195,6 +1443,7 @@ Package biblatex Warning: Using fall-back bibtex backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
+<<<<<<< Updated upstream
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \c@textcitecount=\count481
@@ -1205,11 +1454,27 @@ File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \c@biburlnumpenalty=\count486
 \c@biburlucpenalty=\count487
 \c@biburllcpenalty=\count488
+=======
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count480
+\c@textcitetotal=\count481
+\c@textcitemaxnames=\count482
+\c@biburlbigbreakpenalty=\count483
+\c@biburlbreakpenalty=\count484
+\c@biburlnumpenalty=\count485
+\c@biburlucpenalty=\count486
+\c@biburllcpenalty=\count487
+>>>>>>> Stashed changes
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
+<<<<<<< Updated upstream
 \c@smartand=\count489
+=======
+\c@smartand=\count488
+>>>>>>> Stashed changes
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1227,10 +1492,17 @@ File: alphabetic.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count490
 \c@bbx:relatedtotal=\count491
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count489
+\c@bbx:relatedtotal=\count490
+>>>>>>> Stashed changes
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -1260,9 +1532,15 @@ Package biblatex Info: Document encoding is UTF8 ....
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-04-11 L3 programming layer (loader) 
 
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count492
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count491
+>>>>>>> Stashed changes
 \l__pdf_internal_box=\box105
 ))
 Package biblatex Info: ... and expl3
@@ -1276,6 +1554,7 @@ Package: xparse 2024-03-14 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty)
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
@@ -1290,15 +1569,39 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 \lst@width=\dimen332
 \lst@newlines=\count497
 \lst@lineno=\count498
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemestructure.
+sty) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count492
+\lst@gtempboxa=\box106
+\lst@token=\toks54
+\lst@length=\count493
+\lst@currlwidth=\dimen330
+\lst@column=\count494
+\lst@pos=\count495
+\lst@lostspace=\dimen331
+\lst@width=\dimen332
+\lst@newlines=\count496
+\lst@lineno=\count497
+>>>>>>> Stashed changes
 \lst@maxwidth=\dimen333
 
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
 )
+<<<<<<< Updated upstream
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 \c@lstnumber=\count499
 \lst@skipnumbers=\count500
+=======
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count498
+\lst@skipnumbers=\count499
+>>>>>>> Stashed changes
 \lst@framebox=\box107
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
@@ -1310,6 +1613,7 @@ Package: listings 2024/03/11 1.10a (Carsten Heinz)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
+<<<<<<< Updated upstream
 \@quotelevel=\count501
 \@quotereset=\count502
 (./Presentation_ThreatandWeaknessAnalysis.aux (./slides/start.aux)
@@ -1334,6 +1638,32 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
+=======
+\@quotelevel=\count500
+\@quotereset=\count501
+(./Presentation_ThreatandWeaknessAnalysis.aux (./Slides/start.aux)
+(./Slides/end.aux))
+\openout1 = `Presentation_ThreatandWeaknessAnalysis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+>>>>>>> Stashed changes
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1371,6 +1701,7 @@ LaTeX Font Info:    ... okay on input line 26.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
+<<<<<<< Updated upstream
 \scratchcounter=\count503
 \scratchdimen=\dimen334
 \scratchbox=\box108
@@ -1381,6 +1712,18 @@ LaTeX Font Info:    ... okay on input line 26.
 \MPscratchDim=\dimen335
 \MPnumerator=\count507
 \makeMPintoPDFobject=\count508
+=======
+\scratchcounter=\count502
+\scratchdimen=\dimen334
+\scratchbox=\box108
+\nofMPsegments=\count503
+\nofMParguments=\count504
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count505
+\MPscratchDim=\dimen335
+\MPnumerator=\count506
+\makeMPintoPDFobject=\count507
+>>>>>>> Stashed changes
 \everyMPtoPDFconversion=\toks56
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1391,7 +1734,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+<<<<<<< Updated upstream
 Package hyperref Info: Link coloring OFF on input line 26.
+=======
+Package hyperref Info: Link coloring OFF on input line 28.
+>>>>>>> Stashed changes
 
 (./Presentation_ThreatandWeaknessAnalysis.out)
 (./Presentation_ThreatandWeaknessAnalysis.out)
@@ -1399,6 +1746,7 @@ Package hyperref Info: Link coloring OFF on input line 26.
 \openout7 = `Presentation_ThreatandWeaknessAnalysis.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+<<<<<<< Updated upstream
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 26.
@@ -1450,6 +1798,59 @@ LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 26.
+=======
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 28.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 2
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 2
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 28.
+>>>>>>> Stashed changes
 
 (c:/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1496,6 +1897,7 @@ Package biblatex Info: ... file 'Presentation_ThreatandWeaknessAnalysis.bbl' fo
 und.
 
 (./Presentation_ThreatandWeaknessAnalysis.bbl)
+<<<<<<< Updated upstream
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
 \c@lstlisting=\count509
@@ -1508,6 +1910,20 @@ Package pdftex.def Info: img/technik.jpg  used on input line 26.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 26--26
+=======
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
+\c@lstlisting=\count508
+
+(./Presentation_ThreatandWeaknessAnalysis.nav)
+<img/technik.jpg, id=41, 231.9867pt x 77.8107pt>
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 28.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 28--28
+>>>>>>> Stashed changes
 [][]  
  []
 
@@ -1523,7 +1939,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 15--15
 [][]  
  []
 
+<<<<<<< Updated upstream
 <img/hintergrund2.png, id=38, 986.68625pt x 473.77pt>
+=======
+<img/hintergrund2.png, id=42, 986.68625pt x 473.77pt>
+>>>>>>> Stashed changes
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
 Package pdftex.def Info: img/hintergrund2.png  used on input line 15.
@@ -1569,20 +1989,35 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ])
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 52.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 52--52
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 54.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 54--54
+>>>>>>> Stashed changes
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 52.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 52.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 54.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 54.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1596,20 +2031,35 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 71.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 71--71
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 73.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 73--73
+>>>>>>> Stashed changes
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 71.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 71.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 73.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 73.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1621,6 +2071,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 106.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
@@ -1632,14 +2083,39 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 106--106
 File: images/LogSS.png Graphic file (type png)
 <use images/LogSS.png>
 Package pdftex.def Info: images/LogSS.png  used on input line 106.
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 93.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 93--93
+[][]  
+ []
+
+<images/LogSS.png, id=217, 673.51625pt x 310.15875pt>
+File: images/LogSS.png Graphic file (type png)
+<use images/LogSS.png>
+Package pdftex.def Info: images/LogSS.png  used on input line 93.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 245.83282pt x 113.20937pt.
+
+Overfull \vbox (10.58064pt too high) detected at line 93
+ []
+
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 106.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 106.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 93.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 93.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1651,20 +2127,35 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
  <./images/LogSS.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 122.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 122--122
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 109.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 109--109
+>>>>>>> Stashed changes
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 122.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 122.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 109.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 109.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1676,20 +2167,44 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 153.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 153--153
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 134.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 134--134
+>>>>>>> Stashed changes
 [][]  
+ []
+
+<images/RAMI_IIRA.png, id=293, 786.43813pt x 413.04312pt>
+File: images/RAMI_IIRA.png Graphic file (type png)
+<use images/RAMI_IIRA.png>
+Package pdftex.def Info: images/RAMI_IIRA.png  used on input line 134.
+(pdftex.def)             Requested size: 153.64493pt x 80.69118pt.
+
+Overfull \vbox (13.5069pt too high) detected at line 134
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 153.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 153.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 134.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 134.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1698,9 +2213,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [7
 
-]
+ <./images/RAMI_IIRA.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 170.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
@@ -1743,6 +2259,31 @@ Package pdftex.def Info: img/hintergrund2.png  used on input line 170.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 170.
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 159.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 159--159
+[][]  
+ []
+
+<images/Database.jpeg, id=333, 952.30782pt x 257.46187pt>
+File: images/Database.jpeg Graphic file (type jpg)
+<use images/Database.jpeg>
+Package pdftex.def Info: images/Database.jpeg  used on input line 159.
+(pdftex.def)             Requested size: 276.559pt x 74.7681pt.
+
+Overfull \vbox (15.97269pt too high) detected at line 159
+ []
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 159.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 159.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1751,6 +2292,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [8
 
+<<<<<<< Updated upstream
  <./images/csvFile.png> <./images/error.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
@@ -1769,15 +2311,42 @@ Package pdftex.def Info: images/DataTransformation.png  used on input line 195.
 (pdftex.def)             Requested size: 307.28987pt x 87.41386pt.
 
 Overfull \vbox (2.07503pt too high) detected at line 195
+=======
+ <./images/Database.jpeg>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 184.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 184--184
+[][]  
+ []
+
+<images/csvFIle.png, id=373, 1115.96925pt x 344.487pt>
+File: images/csvFIle.png Graphic file (type png)
+<use images/csvFIle.png>
+Package pdftex.def Info: images/csvFIle.png  used on input line 184.
+(pdftex.def)             Requested size: 307.28987pt x 94.85773pt.
+
+Overfull \vbox (8.46333pt too high) detected at line 184
+>>>>>>> Stashed changes
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 195.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 195.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 184.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 184.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1786,6 +2355,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [9
 
+<<<<<<< Updated upstream
  <./images/DataTransformation.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
@@ -1793,16 +2363,43 @@ Package pdftex.def Info: img/technik.jpg  used on input line 222.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 222--222
+=======
+ <./images/csvFIle.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 210.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 210--210
+>>>>>>> Stashed changes
 [][]  
+ []
+
+<images/DataTransformation.png, id=413, 903.97725pt x 257.16075pt>
+File: images/DataTransformation.png Graphic file (type png)
+<use images/DataTransformation.png>
+Package pdftex.def Info: images/DataTransformation.png  used on input line 210.
+
+(pdftex.def)             Requested size: 307.28987pt x 87.41386pt.
+
+Overfull \vbox (2.07503pt too high) detected at line 210
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 222.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 222.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 210.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 210.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1811,23 +2408,38 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [10
 
-]
+ <./images/DataTransformation.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 248.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 248--248
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 237.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 237--237
+>>>>>>> Stashed changes
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 248.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 248.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 237.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 237.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1839,20 +2451,35 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/technik.jpg  used on input line 292.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) in paragraph at lines 292--292
+=======
+Package pdftex.def Info: img/technik.jpg  used on input line 265.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 265--265
+>>>>>>> Stashed changes
 [][]  
  []
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: img/hintergrund2.png  used on input line 292.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 292.
+=======
+Package pdftex.def Info: img/hintergrund2.png  used on input line 265.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 265.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1862,6 +2489,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 [12
 
 ]
+<<<<<<< Updated upstream
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 312.
@@ -1878,6 +2506,55 @@ Package pdftex.def Info: img/hintergrund2.png  used on input line 312.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 312.
+=======
+
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 312.
+
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 340.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 340--340
+[][]  
+ []
+
+<images/PowerBI_1.png, id=527, 1148.49075pt x 611.28375pt>
+File: images/PowerBI_1.png Graphic file (type png)
+<use images/PowerBI_1.png>
+Package pdftex.def Info: images/PowerBI_1.png  used on input line 340.
+(pdftex.def)             Requested size: 147.49782pt x 78.49962pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 340
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 340
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 340.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<images/PowerBI_2.png, id=528, 1022.01825pt x 591.4095pt>
+File: images/PowerBI_2.png Graphic file (type png)
+<use images/PowerBI_2.png>
+Package pdftex.def Info: images/PowerBI_2.png  used on input line 340.
+(pdftex.def)             Requested size: 147.49782pt x 85.3506pt.
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 340.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 340.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1886,6 +2563,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [13
 
+<<<<<<< Updated upstream
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
@@ -1913,6 +2591,25 @@ Package pdftex.def Info: img/hintergrund2.png  used on input line 335.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 335.
+=======
+ <./images/PowerBI_1.png> <./images/PowerBI_2.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 364.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 364--364
+[][]  
+ []
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 364.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 364.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1921,6 +2618,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [14
 
+<<<<<<< Updated upstream
  <./images/PowerBI_1.png> <./images/PowerBI_2.png>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
@@ -1971,6 +2669,8 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [16
 
+=======
+>>>>>>> Stashed changes
 ]
 \openout2 = `Slides/end.aux'.
 
@@ -1997,7 +2697,11 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 [][]  
  []
 
+<<<<<<< Updated upstream
 [17
+=======
+[15
+>>>>>>> Stashed changes
 
 
 ])
@@ -2018,13 +2722,18 @@ L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `Presentation_ThreatandWeaknessAnalysis.out' 
 has not changed.
+<<<<<<< Updated upstream
 (rerunfilecheck)             Checksum: 20DC086D6208A9C253C525237B5FD615;909.
+=======
+(rerunfilecheck)             Checksum: E369C2BB7169038135941BE3EC24485A;1242.
+>>>>>>> Stashed changes
 Package logreq Info: Writing requests to 'Presentation_ThreatandWeaknessAnalysi
 s.run.xml'.
 \openout1 = `Presentation_ThreatandWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  39665 strings out of 474050
  816431 string characters out of 5746299
  1948754 words of memory out of 5000000
@@ -2046,4 +2755,26 @@ PDF statistics:
  580 compressed objects within 6 object streams
  41 named destinations out of 1000 (max. 500000)
  725 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 39625 strings out of 474116
+ 819538 string characters out of 5743682
+ 1944187 words of memory out of 5000000
+ 61230 multiletter control sequences out of 15000+600000
+ 564621 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,21n,123p,1908b,2336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on Presentation_ThreatandWeaknessAnalysis.pdf (15 pages, 3096269
+ bytes).
+PDF statistics:
+ 693 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 744 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 

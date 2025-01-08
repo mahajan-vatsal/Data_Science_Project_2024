@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.2)  7 JAN 2025 16:17
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  8 JAN 2025 11:18
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1790,7 +1794,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43
 
 ]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 36.
+e 34.
 )
 \tf@toc=\write8
 \openout8 = `ThreatAndWeaknessAnalysis.toc'.
@@ -1808,7 +1812,7 @@ Package marginnote Info: Using workaround for absolute page number on input lin
 e 10.
 
 chapter 1.
-<Images/Data_Img.png, id=118, 1280.28313pt x 587.19376pt>
+<Images/Data_Img.png, id=120, 1280.28313pt x 587.19376pt>
 File: Images/Data_Img.png Graphic file (type png)
 <use Images/Data_Img.png>
 Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
@@ -1819,81 +1823,92 @@ Package pdftex.def Info: Images/Data_Img.png  used on input line 20.
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Image
 s/Data_Img.png>]
 chapter 2.
+chapter 3.
 [3
 
 
 ] [4]
-chapter 3.
+chapter 4.
+<Images/RAMI_IIRA.png, id=147, 427.5975pt x 174.6525pt>
+File: Images/RAMI_IIRA.png Graphic file (type png)
+<use Images/RAMI_IIRA.png>
+Package pdftex.def Info: Images/RAMI_IIRA.png  used on input line 103.
+(pdftex.def)             Requested size: 302.73602pt x 123.65236pt.
 [5
 
 
-]
-chapter 4.
+ <./Images/RAMI_IIRA.png>]
+chapter 5.
 [6
 
 
 ]
-chapter 5.
-) (./Chapters/en/KDD.tex [7
+chapter 6.
+[7
 
 
 ]
-chapter 6.
-<Images/KDD.png, id=161, 802.197pt x 431.81325pt>
+chapter 7.
+) (./Chapters/en/KDD.tex [8
+
+
+]
+chapter 8.
+<Images/KDD.png, id=174, 802.197pt x 431.81325pt>
 File: Images/KDD.png Graphic file (type png)
 <use Images/KDD.png>
 Package pdftex.def Info: Images/KDD.png  used on input line 16.
 (pdftex.def)             Requested size: 302.73602pt x 162.95743pt.
-[8
+[9
 
 
 ]
-<Images/RawInput.png, id=174, 1152.10425pt x 444.4605pt>
+<Images/RawInput.png, id=186, 1152.10425pt x 444.4605pt>
 File: Images/RawInput.png Graphic file (type png)
 <use Images/RawInput.png>
 Package pdftex.def Info: Images/RawInput.png  used on input line 47.
 (pdftex.def)             Requested size: 389.23108pt x 150.15831pt.
- [9 <./Images/KDD.png> <./Images/RawInput.png>] [10]
-<Images/csvFile.png, id=188, 1115.96925pt x 344.487pt>
+ [10 <./Images/KDD.png> <./Images/RawInput.png>] [11]
+<Images/csvFile.png, id=200, 1115.96925pt x 344.487pt>
 File: Images/csvFile.png Graphic file (type png)
 <use Images/csvFile.png>
 Package pdftex.def Info: Images/csvFile.png  used on input line 91.
 (pdftex.def)             Requested size: 389.23108pt x 120.15173pt.
-<Images/error.png, id=190, 651.6345pt x 27.10126pt>
+<Images/error.png, id=202, 651.6345pt x 27.10126pt>
 File: Images/error.png Graphic file (type png)
 <use Images/error.png>
 Package pdftex.def Info: Images/error.png  used on input line 103.
 (pdftex.def)             Requested size: 389.23108pt x 16.18808pt.
- [11 <./Images/csvFile.png> <./Images/error.png>]
+ [12 <./Images/csvFile.png> <./Images/error.png>]
 Overfull \hbox (8.00291pt too wide) in paragraph at lines 124--125
 []\T1/cmr/m/n/12 (-20) Parsing rel^^?e^^?vant fields ([]\T1/cmtt/m/n/12 TraceId
 , HTTP Status Code, Path, User-Agent[]\T1/cmr/m/n/12 (-20) ) from
  []
 
-<Images/DataTransformation.png, id=201, 903.97725pt x 257.16075pt>
+<Images/DataTransformation.png, id=212, 903.97725pt x 257.16075pt>
 File: Images/DataTransformation.png Graphic file (type png)
 <use Images/DataTransformation.png>
 Package pdftex.def Info: Images/DataTransformation.png  used on input line 130.
 
 (pdftex.def)             Requested size: 389.23108pt x 110.72606pt.
-[12 <./Images/DataTransformation.png>] [13] [14]
-<Images/PowerBI1.png, id=233, 829.29825pt x 472.76625pt>
+[13 <./Images/DataTransformation.png>] [14] [15]
+<Images/PowerBI1.png, id=244, 829.29825pt x 472.76625pt>
 File: Images/PowerBI1.png Graphic file (type png)
 <use Images/PowerBI1.png>
-Package pdftex.def Info: Images/PowerBI1.png  used on input line 218.
+Package pdftex.def Info: Images/PowerBI1.png  used on input line 219.
 (pdftex.def)             Requested size: 302.73602pt x 172.5835pt.
-<Images/PowerBI2.png, id=234, 1148.49075pt x 611.28375pt>
+<Images/PowerBI2.png, id=245, 1148.49075pt x 611.28375pt>
 File: Images/PowerBI2.png Graphic file (type png)
 <use Images/PowerBI2.png>
-Package pdftex.def Info: Images/PowerBI2.png  used on input line 226.
+Package pdftex.def Info: Images/PowerBI2.png  used on input line 227.
 (pdftex.def)             Requested size: 302.73602pt x 161.13129pt.
-<Images/PowerBI3.png, id=235, 1022.01825pt x 591.4095pt>
+<Images/PowerBI3.png, id=246, 1022.01825pt x 591.4095pt>
 File: Images/PowerBI3.png Graphic file (type png)
 <use Images/PowerBI3.png>
-Package pdftex.def Info: Images/PowerBI3.png  used on input line 234.
+Package pdftex.def Info: Images/PowerBI3.png  used on input line 235.
 (pdftex.def)             Requested size: 302.73602pt x 175.18622pt.
-) [15 <./Images/PowerBI1.png>]
-[16 <./Images/PowerBI2.png> <./Images/PowerBI3.png>] [17]
+) [16 <./Images/PowerBI1.png>]
+[17 <./Images/PowerBI2.png> <./Images/PowerBI3.png>]
 No file ThreatAndWeaknessAnalysis.ind.
 [18
 
@@ -1911,11 +1926,19 @@ Package logreq Info: Writing requests to 'ThreatAndWeaknessAnalysis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  59733 strings out of 474050
  1471726 string characters out of 5746299
  2473611 words of memory out of 5000000
  81050 multiletter control sequences out of 15000+600000
  603056 words of font info for 235 fonts, out of 8000000 for 9000
+=======
+ 59755 strings out of 474104
+ 1472080 string characters out of 5747502
+ 2473435 words of memory out of 5000000
+ 81007 multiletter control sequences out of 15000+600000
+ 604126 words of font info for 240 fonts, out of 8000000 for 9000
+>>>>>>> Stashed changes
  1146 hyphenation exceptions out of 8191
  110i,8n,111p,10920b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
@@ -1933,10 +1956,10 @@ fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2024/texmf-dist/fonts/type
 m-super/sfti1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
 tt1095.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
 >
-Output written on ThreatAndWeaknessAnalysis.pdf (20 pages, 1230902 bytes).
+Output written on ThreatAndWeaknessAnalysis.pdf (20 pages, 1408077 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 97 named destinations out of 1000 (max. 500000)
- 42391 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 44452 words of extra memory for PDF output out of 51595 (max. 10000000)
 

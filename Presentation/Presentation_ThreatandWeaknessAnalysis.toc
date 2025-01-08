@@ -3,6 +3,13 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Purpose of Analysis}{4}{0}{2}
 \beamer@sectionintoc {3}{Challenges}{5}{0}{3}
+<<<<<<< Updated upstream
 \beamer@sectionintoc {4}{Knowledge Discovery in Database (KDD) Process}{6}{0}{4}
 \beamer@sectionintoc {5}{Conclusion and Future Scope}{15}{0}{5}
 \beamer@sectionintoc {6}{Literature}{16}{0}{6}
+=======
+\beamer@sectionintoc {4}{Application Sector}{6}{0}{4}
+\beamer@sectionintoc {5}{Positioning Analytics in Relevant Architectures}{7}{0}{5}
+\beamer@sectionintoc {6}{Knowledge Discovery in Database (KDD) Process}{8}{0}{6}
+\beamer@sectionintoc {7}{Conclusion and Future Scope}{14}{0}{7}
+>>>>>>> Stashed changes
