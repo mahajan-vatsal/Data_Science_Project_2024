@@ -19,44 +19,9 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@sectionpages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {4}{Knowledge Discovery in Database (KDD) Process}{6}{Knowledge Discovery in Database (KDD) Process}{0}}
+\headcommand {\sectionentry {4}{Application Sector}{6}{Application Sector}{0}}
 \headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-<<<<<<< Updated upstream
-\headcommand {\slideentry {4}{0}{2}{7/7}{}{0}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {4}{0}{3}{8/8}{}{0}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {4}{0}{4}{9/9}{}{0}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {4}{0}{5}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{0}{6}{11/11}{}{0}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {4}{0}{7}{12/12}{}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {4}{0}{8}{13/13}{}{0}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {4}{0}{9}{14/14}{}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@sectionpages {6}{14}}
-\headcommand {\beamer@subsectionpages {6}{14}}
-\headcommand {\sectionentry {5}{Conclusion and Future Scope}{15}{Conclusion and Future Scope}{0}}
-\headcommand {\slideentry {5}{0}{1}{15/15}{}{0}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@sectionpages {15}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\sectionentry {6}{Literature}{16}{Literature}{0}}
-\headcommand {\slideentry {6}{0}{1}{16/16}{}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {6}{0}{2}{17/17}{}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@partpages {1}{17}}
-\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\beamer@sectionpages {16}{17}}
-\headcommand {\beamer@documentpages {17}}
-\headcommand {\gdef \inserttotalframenumber {17}}
-=======
 \headcommand {\beamer@sectionpages {6}{6}}
 \headcommand {\beamer@subsectionpages {6}{6}}
 \headcommand {\sectionentry {5}{Positioning Analytics in Relevant Architectures}{7}{Positioning Analytics in Relevant Architectures}{0}}
@@ -89,4 +54,3 @@
 \headcommand {\beamer@sectionpages {14}{15}}
 \headcommand {\beamer@documentpages {15}}
 \headcommand {\gdef \inserttotalframenumber {15}}
->>>>>>> Stashed changes
